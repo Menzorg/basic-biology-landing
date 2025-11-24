@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
       {/* Mobile View */}
-      <div className="block md:hidden relative w-full max-w-[375px] mx-auto overflow-hidden bg-[#d6ffd9] pb-10">
+      <div className="block md:hidden relative w-full mx-auto overflow-hidden bg-[#d6ffd9] pb-10">
         <div className="relative w-full">
           <MobileHero />
         </div>
