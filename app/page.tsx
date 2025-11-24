@@ -5,11 +5,18 @@ import BlockForYou from "./components/BlockForYou";
 import ComfortLearn from "./components/ComfortLearn";
 import CourseProgram from "./components/CourseProgram";
 import FormatAndContacts from "./components/FormatAndContacts";
+import MobileHero from "./components/MobileHero";
+import MobileWhyBlock from "./components/MobileWhyBlock";
+import MobileBlockForYou from "./components/MobileBlockForYou";
+import MobileComfortLearn from "./components/MobileComfortLearn";
+import MobileCourseProgram from "./components/MobileCourseProgram";
+import MobileFormatAndContacts from "./components/MobileFormatAndContacts";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-[#d6ffd9]">
-      <div className="relative w-full max-w-[1920px] h-[9277px] mx-auto overflow-hidden bg-[#d6ffd9]">
+      {/* Desktop View */}
+      <div className="hidden md:block relative w-full max-w-[1920px] h-[9277px] mx-auto overflow-hidden bg-[#d6ffd9]">
         <div className="absolute top-0 w-full left-0 z-10">
           <Hero />
         </div>
@@ -30,6 +37,28 @@ export default function Home() {
         </div>
         <div className="absolute top-[7698px] w-full left-0 z-70">
           <FormatAndContacts />
+        </div>
+      </div>
+
+      {/* Mobile View */}
+      <div className="block md:hidden relative w-full max-w-[375px] mx-auto overflow-hidden bg-[#d6ffd9] pb-10">
+        <div className="relative w-full">
+          <MobileHero />
+        </div>
+        <div className="relative w-full mt-[-30px] z-20"> {/* Adjusted spacing based on layout */}
+          <MobileWhyBlock />
+        </div>
+        <div className="relative w-full z-30">
+          <MobileBlockForYou />
+        </div>
+        <div className="relative w-full z-40">
+          <MobileComfortLearn />
+        </div>
+        <div className="relative w-full z-50">
+          <MobileCourseProgram />
+        </div>
+        <div className="relative w-full z-60">
+          <MobileFormatAndContacts />
         </div>
       </div>
     </main>
