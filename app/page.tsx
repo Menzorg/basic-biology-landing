@@ -16,26 +16,26 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-[#d6ffd9]">
       {/* Desktop View */}
-      <div className="hidden md:block relative w-full max-w-[1920px] h-[9277px] mx-auto overflow-hidden bg-[#d6ffd9]">
+      <div className="hidden md:block relative w-full h-[483.177vw] mx-auto overflow-hidden bg-[#d6ffd9]">
         <div className="absolute top-0 w-full left-0 z-10">
           <Hero />
         </div>
-        <div className="absolute top-[1729px] w-full left-0 z-20">
+        <div className="absolute top-[90.052vw] w-full left-0 z-20">
           <WhyBlock />
         </div>
-        <div className="absolute top-[3183px] w-full left-0 z-30">
+        <div className="absolute top-[165.781vw] w-full left-0 z-30">
           <QuoteBlock />
         </div>
-        <div className="absolute top-[3943px] w-full left-0 z-40">
+        <div className="absolute top-[205.365vw] w-full left-0 z-40">
           <BlockForYou />
         </div>
-        <div className="absolute top-[5536px] w-full left-0 z-50">
+        <div className="absolute top-[288.333vw] w-full left-0 z-50">
           <ComfortLearn />
         </div>
-        <div className="absolute top-[6636px] w-full left-0 z-60">
+        <div className="absolute top-[345.625vw] w-full left-0 z-60">
           <CourseProgram />
         </div>
-        <div className="absolute top-[7698px] w-full left-0 z-70">
+        <div className="absolute top-[400.938vw] w-full left-0 z-70">
           <FormatAndContacts />
         </div>
       </div>
