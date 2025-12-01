@@ -1,26 +1,31 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import imgImage1 from '../assets/mobile/imgImage1.png';
+import imgSliderImage2 from '../assets/desktop/imgSliderImage2.png';
+import imgSliderImage3 from '../assets/desktop/imgSliderImage3.png';
+import imgSliderImage4 from '../assets/desktop/imgSliderImage4.png';
 
 const slides = [
   {
     title: 'Но у меня уже есть диплом / я сам преподаю.',
     text: 'Отлично! Этот курс — не пересказ университетского учебника. Это авторский взгляд Дробышевского, который связывает разрозненные факты в единую систему. Вы получите свежие данные "с полей", разбор современных научных мифов и, возможно, совершенно новый взгляд на дисциплины, которые, как вам казалось, вы знаете от и до. Это идеальное повышение квалификации.',
-    image: '/images/mobile/imgImage1.png'
+    image: imgImage1
   },
   {
     title: 'Но это, наверное, скучно, сложно и оторвано от жизни.',
     text: 'Забудьте. Дробышевский превращает генетику в детектив, а палеонтологию — в блокбастер. Это живой диалог, экспедиционные байки и разбор фейков из интернета в реальном времени. Сложные вещи (теломеры, СТЭ, органогенез) объясняются с юмором и на примерах, которые вы узнаете.',
-    image: '/images/desktop/imgSliderImage2.png' // Using desktop image as mobile specific wasn't provided for all slides
+    image: imgSliderImage2 // Using desktop image as mobile specific wasn't provided for all slides
   },
   {
     title: 'Но у меня нет времени на годовой курс.',
     text: 'Курс создан для занятых людей. Вы можете подключиться онлайн, выбрать только один интересующий вас семестр или даже посетить одну-единственную лекцию. Вы сами управляете глубиной погружения.',
-    image: '/images/desktop/imgSliderImage3.png'
+    image: imgSliderImage3
   },
   {
     title: 'Но что мне это даст, кроме "общего развития"?',
     text: 'Это трамплин. В зависимости от вашей цели, вы выйдете с:\n• Углубленной подготовкой к ЕГЭ или Олимпиадам.\n• Удостоверением о повышении квалификации (для учителей).\n• Дипломом о профпереподготовке (1000+ часов) на преподавателя биологии и экологии.',
-    image: '/images/desktop/imgSliderImage4.png'
+    image: imgSliderImage4
   }
 ];
 
@@ -28,8 +33,6 @@ export default function MobileWhyBlock() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
-
-  const [isHovered, setIsHovered] = useState(false);
 
   const handlePrev = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
@@ -40,13 +43,12 @@ export default function MobileWhyBlock() {
   };
 
   useEffect(() => {
-    if (isHovered) return;
     const timer = setInterval(() => {
       handleNext();
-    }, 3000);
+    }, 8000);
 
     return () => clearInterval(timer);
-  }, [isHovered]);
+  }, []);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);
@@ -61,7 +63,7 @@ export default function MobileWhyBlock() {
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > 50;
     const isRightSwipe = distance < -50;
-
+    
     if (isLeftSwipe) {
       handleNext();
     }
@@ -79,7 +81,7 @@ export default function MobileWhyBlock() {
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[145vw] w-[86.400vw] z-20">
           <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-              <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
@@ -89,10 +91,10 @@ export default function MobileWhyBlock() {
         </div>
         <div className="absolute h-[165.867vw] left-0 top-[161.867vw] w-[100.000vw]" data-name="description" data-node-id="3049:220">
           <div className="absolute h-[85.600vw] left-0 top-[80.267vw] w-[100.000vw]" data-name="background-mark-2" data-node-id="3049:221">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark4.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark4.png" />
           </div>
           <div className="absolute left-[17.067vw] size-[65.867vw] top-[91.467vw]" data-name="image" data-node-id="3049:222">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgImage.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgImage.png" />
           </div>
           <div className="absolute h-[44.533vw] left-[4.800vw] top-[47.733vw] w-[87.467vw]" data-name="content-2-block" data-node-id="3049:223">
             <div className="absolute h-[10.133vw] left-0 top-[34.400vw] w-[82.667vw]" data-name="paragraph-3" data-node-id="3049:224">
@@ -101,7 +103,7 @@ export default function MobileWhyBlock() {
               </div>
               <div className="absolute aspect-[47/46] left-[1.29%] right-[87.42%] top-1/2 translate-y-[-50%]" data-name="spanner" data-node-id="3049:226">
                 <div className="absolute inset-[-4.41%_-4.29%]">
-                  <img alt="" className="block max-w-none size-full" src="/images/mobile/imgSpanner.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgSpanner.svg" />
                 </div>
               </div>
             </div>
@@ -111,7 +113,7 @@ export default function MobileWhyBlock() {
               </div>
               <div className="absolute aspect-[47/46] left-[1.23%] right-[88.27%] top-1/2 translate-y-[-50%]" data-name="message-icon" data-node-id="3049:229">
                 <div className="absolute inset-[-4.55%_-4.41%]">
-                  <img alt="" className="block max-w-none size-full" src="/images/mobile/imgMessageIcon.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgMessageIcon.svg" />
                 </div>
               </div>
             </div>
@@ -121,14 +123,14 @@ export default function MobileWhyBlock() {
               </div>
               <div className="absolute h-[8.800vw] left-[0.800vw] top-[4.267vw] w-[7.200vw]" data-name="file-icon" data-node-id="3049:232">
                 <div className="absolute inset-[-4.55%_-5.56%]">
-                  <img alt="" className="block max-w-none size-full" src="/images/mobile/imgFileIcon.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgFileIcon.svg" />
                 </div>
               </div>
             </div>
           </div>
           <div className="absolute h-[48.267vw] left-0 top-0 w-[100.000vw]" data-name="content-1-block" data-node-id="3049:237">
             <div className="absolute h-[48.267vw] left-0 top-0 w-[100.000vw]" data-name="bacground-mark" data-node-id="3049:238">
-              <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBacgroundMark1.png" />
+              <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBacgroundMark1.png" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[38.400vw] justify-center leading-[normal] left-[9.600vw] not-italic text-[3.733vw] text-black top-[27.733vw] translate-y-[-50%] w-[81.067vw] whitespace-pre-wrap" data-node-id="3049:239">
               <p className="mb-0">{`Это не тот предмет, который вы учили в школе или университете. Станислав Дробышевский ломает рамки между дисциплинами. Вы увидите, как законы экологии влияют на генетику, а анатомия диктует эволюцию. `}</p>
@@ -147,11 +149,9 @@ export default function MobileWhyBlock() {
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
         >
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background-image" data-node-id="3049:242">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
             <div 
               className="absolute inset-0 rounded-[10.933vw]" 
               style={{ background: 'linear-gradient(90deg, #3F5E4F 33%, rgba(143, 119, 195, 0.52) 100%)' }} 
@@ -168,7 +168,7 @@ export default function MobileWhyBlock() {
                 </li>
             </ul>
             <div className="relative flex-1 w-[58.400vw] ml-[13.867vw] min-h-0 mt-[4vw] mb-[6vw] z-0">
-                <img alt="" className="absolute inset-0 size-full object-contain" src={slide.image} />
+                <Image fill alt="" className="absolute inset-0 size-full object-contain" src={slide.image} />
             </div>
           </div>
         </div>

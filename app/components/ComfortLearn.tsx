@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function ComfortLearn() {
   return (
     <div className="absolute h-[50.833vw] left-[6.458vw] top-[288.333vw] w-[93.490vw]" data-name="comfort-learn" data-node-id="3049:41">
         <div className="absolute h-[25.833vw] left-[34.792vw] top-[3.542vw] w-[58.750vw]" data-name="background" data-node-id="3049:42">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgBackground1.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgBackground1.png" />
         </div>
         <p className="absolute font-russo h-[5.677vw] leading-[normal] left-[48.021vw] not-italic text-[2.500vw] text-black top-[22.448vw] w-[38.958vw] whitespace-pre-wrap" data-node-id="3049:43">
           Место и время очных лекций
@@ -52,7 +53,7 @@ export default function ComfortLearn() {
             <div className="flex-none rotate-[89.869deg]">
               <div className="h-0 relative w-[22.760vw]" data-name="left-column-line" data-node-id="3049:48">
                 <div className="absolute bottom-0 left-0 right-0 top-[-0.365vw]">
-                  <img alt="" className="block max-w-none size-full" src="/images/desktop/imgLeftColumnLine.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgLeftColumnLine.svg" />
                 </div>
               </div>
             </div>
@@ -62,7 +63,7 @@ export default function ComfortLearn() {
           <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div className="absolute h-[4.427vw] left-0 rounded-[0.729vw] top-0 w-[38.177vw]" data-name="sign-up-button-background" data-node-id="3049:50">
               <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
                 <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
               </div>
             </div>
@@ -79,7 +80,7 @@ export default function ComfortLearn() {
           </p>
           <div className="absolute bottom-[23.86%] left-0 right-[93.47%] top-[23.86%]" data-name="spanner" data-node-id="3049:54">
             <div className="absolute inset-[-7.61%_-7.45%]">
-              <img alt="" className="block max-w-none size-full" src="/images/desktop/imgSpanner.svg" />
+              <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgSpanner.svg" />
             </div>
           </div>
         </div>
@@ -90,7 +91,7 @@ export default function ComfortLearn() {
           </p>
           <div className="absolute bottom-[21.95%] left-0 right-[93.52%] top-[21.95%]" data-name="message-icon" data-node-id="3049:57">
             <div className="absolute inset-[-7.61%_-7.45%]">
-              <img alt="" className="block max-w-none size-full" src="/images/desktop/imgMessageIcon.svg" />
+              <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgMessageIcon.svg" />
             </div>
           </div>
         </div>
@@ -101,7 +102,7 @@ export default function ComfortLearn() {
           </p>
           <div className="absolute h-[2.969vw] left-0 top-[0.156vw] w-[2.448vw]" data-name="file-icon" data-node-id="3049:60">
             <div className="absolute inset-[-6.14%_-7.45%]">
-              <img alt="" className="block max-w-none size-full" src="/images/desktop/imgFileIcon.svg" />
+              <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgFileIcon.svg" />
             </div>
           </div>
         </div>

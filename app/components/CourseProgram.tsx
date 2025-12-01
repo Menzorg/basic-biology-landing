@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const slides = [
   {
@@ -81,7 +82,7 @@ export default function CourseProgram() {
   return (
     <div className="absolute h-[58.802vw] left-0 top-[345.625vw] w-[99.948vw]" data-name="course-program-block" data-node-id="3049:27">
         <div className="absolute h-[30.677vw] left-0 top-0 w-[99.948vw]" data-name="background" data-node-id="3049:28">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgBackground.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgBackground.png" />
         </div>
         <div 
           className="absolute h-[50.208vw] left-[6.458vw] top-[8.594vw] w-[86.979vw]" 
@@ -95,7 +96,7 @@ export default function CourseProgram() {
         >
           <div className="absolute h-[50.208vw] left-0 top-0 w-[87.031vw]" data-name="background" data-node-id="3049:30">
             <div className="absolute h-[50.208vw] left-0 rounded-[4.844vw] top-0 w-[87.031vw]" data-name="background-image" data-node-id="3049:31">
-              <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src="/images/desktop/imgBackgroundImage.png" />
+              <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src="/images/desktop/imgBackgroundImage.png" />
             </div>
             <div className="absolute bg-gradient-to-r from-[#3f5e4f] from-[32.919%] h-[50.208vw] left-0 rounded-[4.844vw] to-[99.072%] to-[rgba(143,119,195,0.52)] top-0 w-[87.031vw]" data-name="background" data-node-id="3049:32" />
           </div>
@@ -129,7 +130,7 @@ export default function CourseProgram() {
           </div>
           <div className="absolute h-0 left-[2.969vw] top-[25.104vw] w-[80.938vw]" data-name="navigation" data-node-id="3049:37">
             <div className="absolute inset-[-2.109vw_-0.35%]">
-              <img alt="" className="block max-w-none size-full" src="/images/desktop/imgNavigation.svg" />
+              <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgNavigation.svg" />
               {/* Prev Button */}
               <div 
                 className="absolute left-[1vw] top-1/2 -translate-y-1/2 w-[3vw] h-[3vw] cursor-pointer z-10 hover:scale-110 active:scale-95 transition-transform flex items-center justify-center"

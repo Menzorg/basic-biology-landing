@@ -1,19 +1,20 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function FormatAndContacts() {
   return (
     <div className="absolute h-[82.240vw] left-0 top-[400.938vw] w-[99.948vw]" data-name="format-and-contacts" data-node-id="3049:3">
         <div className="absolute h-[85.156vw] left-0 top-[3.281vw] w-[99.948vw]" data-name="background" data-node-id="3049:4">
           <div className="absolute h-[54.427vw] left-0 top-[7.083vw] w-[57.760vw]" data-name="Rectangle 238 1" data-node-id="3049:5">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgRectangle2381.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgRectangle2381.png" />
           </div>
           <div className="absolute h-[48.281vw] left-[52.604vw] top-0 w-[47.344vw]" data-name="Rectangle 239 1" data-node-id="3049:6">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgRectangle2391.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgRectangle2391.png" />
           </div>
         </div>
         <div className="absolute h-[37.083vw] left-[6.458vw] top-[45.490vw] w-[77.708vw]" data-name="contacts" data-node-id="3049:7">
           <div className="absolute h-[37.500vw] left-[41.146vw] overflow-clip top-[3.438vw] w-[52.083vw]" data-name="contacts-background" data-node-id="3049:8">
-            <img alt="" className="block max-w-none size-full" height="720" src="/images/desktop/imgContactsBackground.png" width="1000" />
+            <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgContactsBackground.png" />
           </div>
           <div className="absolute h-[30.104vw] left-0 top-[6.979vw] w-[42.292vw]" data-name="left-column" data-node-id="3049:10">
             <div className="absolute flex flex-col font-arsenal h-[20.729vw] justify-center leading-[0] left-[0.833vw] not-italic text-[0vw] text-black top-[13.177vw] translate-y-[-50%] w-[41.458vw] whitespace-pre-wrap" data-node-id="3049:11">
@@ -42,7 +43,7 @@ export default function FormatAndContacts() {
               <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
                 <div className="absolute h-[4.427vw] left-0 rounded-[0.729vw] top-0 w-[38.177vw]" data-name="sign-up-button-background" data-node-id="3049:14">
                   <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                    <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                    <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
                     <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
                   </div>
                 </div>

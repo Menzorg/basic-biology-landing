@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const slides = [
   {
@@ -44,7 +45,7 @@ export default function MobileCourseProgram() {
   useEffect(() => {
     const timer = setInterval(() => {
       handleNext();
-    }, 3000);
+    }, 8000);
 
     return () => clearInterval(timer);
   }, []);
@@ -78,7 +79,7 @@ export default function MobileCourseProgram() {
   return (
     <div className="relative h-[163.200vw] w-full" data-name="course-program-block" data-node-id="3049:167">
         <div className="absolute h-[48.267vw] left-0 top-[14.933vw] w-[100.000vw]" data-name="Rectangle 252 1" data-node-id="3049:168">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle2521.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle2521.png" />
         </div>
         <div className="absolute flex flex-col font-russo h-[14.400vw] justify-center leading-[0] left-[50.133vw] not-italic text-[6.400vw] text-black text-center top-[26.400vw] tracking-[-0.48px] translate-x-[-50%] translate-y-[-50%] w-[80.533vw]" data-node-id="3049:169">
           <p className="leading-[89.95500183105469%] whitespace-pre-wrap">Подробная программа курса</p>
@@ -91,7 +92,7 @@ export default function MobileCourseProgram() {
           onTouchEnd={handleTouchEnd}
         >
             <div className="absolute h-[126.133vw] left-[6.933vw] rounded-[10.933vw] top-[37.067vw] w-[86.400vw]" data-node-id="3049:170">
-              <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
+              <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
               <div 
                 className="absolute inset-0 rounded-[10.933vw]" 
                 style={{ background: 'linear-gradient(90deg, #3F5E4F 33%, rgba(143, 119, 195, 0.52) 100%)' }} 

@@ -1,27 +1,28 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function MobileBlockForYou() {
   return (
     <div className="relative h-[440vw] w-full" data-name="block-for-you" data-node-id="3049:199">
         <div className="absolute h-[100.800vw] left-[9.067vw] top-[13.067vw] w-[90.933vw]" data-name="background-mark-2" data-node-id="3049:200">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark2.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark2.png" />
         </div>
         <div className="absolute h-[221.867vw] left-0 top-[200.800vw] w-[100.000vw]" data-name="bottom-content" data-node-id="3049:201">
           <div className="absolute h-[221.867vw] left-0 top-0 w-[100.000vw]" data-name="background-mark-1" data-node-id="3049:202">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark1.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark1.png" />
           </div>
           <div className="absolute h-[81.867vw] left-[12.533vw] top-[138.400vw] w-[87.467vw]" data-name="background" data-node-id="3049:203">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackground.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackground.png" />
           </div>
           <div className="absolute left-[28.800vw] size-[35.733vw] top-[176.333vw]" data-name="indiana-jones-image" data-node-id="3049:204">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgIndianaJonesImage.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgIndianaJonesImage.png" />
           </div>
           <div className="absolute flex flex-col font-['Arsenal_SC:Bold','Noto_Sans:Regular',sans-serif] h-[121.867vw] justify-center leading-[0] left-[6.667vw] text-[0vw] text-white top-[128.400vw] translate-y-[-50%] w-[86.400vw]" data-node-id="3049:205" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
             <ul className="list-disc whitespace-pre-wrap">
               <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
                 <span>{`Учителям биологии: `}</span>
                 <span className="font-['Arsenal_SC:Regular','Noto_Sans:Regular',sans-serif]" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
-                  официальное повышение квалификации (≥36 ак. часов) и современные методики преподавания.
+                  официальное повышение квалификации (≥72 ак. часов) и современные методики преподавания.
                 </span>
                 <span>
                   <br aria-hidden="true" />
@@ -80,20 +81,20 @@ export default function MobileBlockForYou() {
         </div>
         <div className="absolute h-[156.533vw] left-0 top-[103.733vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:207">
           <div className="absolute h-[155.733vw] left-0 top-0 w-[100.000vw]" data-name="background-mark" data-node-id="3049:208">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark3.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark3.png" />
           </div>
           <div className="absolute h-[62.400vw] left-0 top-[79.200vw] w-[96.000vw]" data-name="bacground-mark" data-node-id="3049:209">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBacgroundMark.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBacgroundMark.png" />
           </div>
           <div className="absolute flex h-[12.194vw] items-center justify-center left-[54.400vw] top-[124.459vw] w-[43.201vw]">
             <div className="flex-none rotate-[3.978deg]">
               <div className="h-[9.257vw] relative w-[42.661vw]" data-node-id="3049:210">
-                <img alt="" className="block max-w-none size-full" src="/images/mobile/imgRectangle251.svg" />
+                <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgRectangle251.svg" />
               </div>
             </div>
           </div>
           <div className="absolute left-[55.733vw] size-[37.600vw] top-[99.467vw]" data-name="school" data-node-id="3049:211">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgSchool.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgSchool.png" />
           </div>
           <div className="absolute flex flex-col font-arsenal font-bold h-[98.400vw] justify-center leading-[0] left-[6.933vw] not-italic text-[0vw] text-white top-[59.600vw] translate-y-[-50%] w-[69.333vw]" data-node-id="3049:212">
             <ul className="mb-0">
@@ -157,7 +158,7 @@ export default function MobileBlockForYou() {
               <div className="flex-none rotate-[90deg]">
                 <div className="h-0 relative w-[64.267vw]" data-name="line-content-1" data-node-id="3049:217">
                   <div className="absolute bottom-0 left-0 right-0 top-[-1.333vw]">
-                    <img alt="" className="block max-w-none size-full" src="/images/mobile/imgLineContent1.svg" />
+                    <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgLineContent1.svg" />
                   </div>
                 </div>
               </div>
@@ -172,7 +173,7 @@ export default function MobileBlockForYou() {
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[88vw] w-[86.400vw] z-20">
             <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+                <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
                 <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
@@ -185,7 +186,7 @@ export default function MobileBlockForYou() {
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[427vw] w-[86.400vw] z-20">
             <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+                <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
                 <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">

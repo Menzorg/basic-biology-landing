@@ -1,26 +1,31 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import imgVector from '../assets/desktop/imgVector.png';
+import imgSliderImage2 from '../assets/desktop/imgSliderImage2.png';
+import imgSliderImage3 from '../assets/desktop/imgSliderImage3.png';
+import imgSliderImage4 from '../assets/desktop/imgSliderImage4.png';
 
 const slides = [
   {
     title: 'Но у меня уже есть диплом / я сам преподаю.',
     text: 'Отлично! Этот курс — не пересказ университетского учебника. Это авторский взгляд Дробышевского, который связывает разрозненные факты в единую систему. Вы получите свежие данные "с полей", разбор современных научных мифов и, возможно, совершенно новый взгляд на дисциплины, которые, как вам казалось, вы знаете от и до. Это идеальное повышение квалификации.',
-    image: '/images/desktop/imgVector.png'
+    image: imgVector
   },
   {
     title: 'Но это, наверное, скучно, сложно и оторвано от жизни.',
     text: 'Забудьте. Дробышевский превращает генетику в детектив, а палеонтологию — в блокбастер. Это живой диалог, экспедиционные байки и разбор фейков из интернета в реальном времени. Сложные вещи (теломеры, СТЭ, органогенез) объясняются с юмором и на примерах, которые вы узнаете.',
-    image: '/images/desktop/imgSliderImage2.png'
+    image: imgSliderImage2
   },
   {
     title: 'Но у меня нет времени на годовой курс.',
     text: 'Курс создан для занятых людей. Вы можете подключиться онлайн, выбрать только один интересующий вас семестр или даже посетить одну-единственную лекцию. Вы сами управляете глубиной погружения.',
-    image: '/images/desktop/imgSliderImage3.png'
+    image: imgSliderImage3
   },
   {
     title: 'Но что мне это даст, кроме "общего развития"?',
     text: 'Это трамплин. В зависимости от вашей цели, вы выйдете с:\n• Углубленной подготовкой к ЕГЭ или Олимпиадам.\n• Удостоверением о повышении квалификации (для учителей).\n• Дипломом о профпереподготовке (1000+ часов) на преподавателя биологии и экологии.',
-    image: '/images/desktop/imgSliderImage4.png'
+    image: imgSliderImage4
   }
 ];
 
@@ -84,13 +89,13 @@ export default function WhyBlock() {
     <div className="absolute h-[74.740vw] left-0 top-[90.052vw] w-[100.000vw]" data-name="why-block" data-node-id="3049:94">
         <div className="absolute h-[33.177vw] left-0 top-[41.563vw] w-[100.000vw]" data-name="description" data-node-id="3049:95">
           <div className="absolute h-[30.677vw] left-0 top-[4.635vw] w-[100.000vw]" data-name="description-background 1" data-node-id="3049:96">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgDescriptionBackground1} />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgDescriptionBackground1} />
           </div>
           <div className="absolute h-[19.375vw] left-[49.792vw] top-[8.229vw] w-[39.271vw]" data-name="descritpion-secondary" data-node-id="3049:97">
             <div className="absolute h-[4.375vw] left-0 top-[15.000vw] w-[37.135vw]" data-name="paragraph-3" data-node-id="3049:98">
               <div className="absolute bottom-[22.62%] left-0 right-[93.41%] top-[22.62%]" data-name="spanner" data-node-id="3049:99">
                 <div className="absolute inset-[-7.61%_-7.45%]">
-                  <img alt="" className="block max-w-none size-full" src={imgSpanner} />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgSpanner} />
                 </div>
               </div>
               <div className="absolute flex flex-col font-arsenal h-[4.375vw] justify-center leading-[0] left-[4.844vw] not-italic text-[1.667vw] text-black top-[2.188vw] translate-y-[-50%] w-[32.292vw]" data-node-id="3049:100">
@@ -100,7 +105,7 @@ export default function WhyBlock() {
             <div className="absolute h-[5.156vw] left-0 top-[8.698vw] w-[38.333vw]" data-name="paragraph-2" data-node-id="3049:101">
               <div className="absolute bottom-[26.26%] left-0 right-[93.61%] top-[27.27%]" data-name="message-icon" data-node-id="3049:102">
                 <div className="absolute inset-[-7.61%_-7.45%]">
-                  <img alt="" className="block max-w-none size-full" src={imgMessageIcon} />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgMessageIcon} />
                 </div>
               </div>
               <div className="absolute flex flex-col font-arsenal h-[5.156vw] justify-center leading-[0] left-[4.844vw] not-italic text-[1.667vw] text-black top-[2.578vw] translate-y-[-50%] w-[33.490vw]" data-node-id="3049:103">
@@ -110,7 +115,7 @@ export default function WhyBlock() {
             <div className="absolute h-[7.083vw] left-0 top-0 w-[39.271vw]" data-name="paragraph-1" data-node-id="3049:104">
               <div className="absolute h-[2.969vw] left-0 top-[2.083vw] w-[2.448vw]" data-name="file-icon" data-node-id="3049:105">
                 <div className="absolute inset-[-6.14%_-7.45%]">
-                  <img alt="" className="block max-w-none size-full" src={imgFileIcon} />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgFileIcon} />
                 </div>
               </div>
               <div className="absolute flex flex-col font-arsenal h-[7.083vw] justify-center leading-[0] left-[4.844vw] not-italic text-[1.667vw] text-black top-[3.542vw] translate-y-[-50%] w-[34.427vw]" data-node-id="3049:110">
@@ -142,7 +147,7 @@ export default function WhyBlock() {
           onMouseLeave={() => setIsHovered(false)}
         >
           <div className="absolute h-[35.677vw] left-0 rounded-[4.844vw] top-0 w-[87.031vw]" data-name="slider-background-image" data-node-id="3049:114">
-            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src="/images/desktop/imgBackgroundImage.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src="/images/desktop/imgBackgroundImage.png" />
           </div>
           <div className="absolute bg-gradient-to-r from-[#3f5e4f] from-[32.919%] h-[35.677vw] left-0 rounded-[4.844vw] to-[99.072%] to-[rgba(143,119,195,0.52)] top-0 w-[87.031vw]" data-name="slider-background" data-node-id="3049:115" />
           <div key={currentSlide} className="animate-fade-in absolute inset-0">
@@ -156,7 +161,7 @@ export default function WhyBlock() {
             </p>
             <div className="absolute left-[49.063vw] overflow-clip size-[28.854vw] top-[5.313vw]" data-name="slider-image" data-node-id="3049:121">
                 <div className="absolute bottom-0 left-[-2.85%] right-[2.85%] top-0" data-name="Vector" data-node-id="3049:122">
-                <img alt="" className="block max-w-none size-full object-contain" src={slide.image} />
+                <Image fill alt="" className="block max-w-none size-full object-contain" src={slide.image} />
                 </div>
             </div>
           </div>
@@ -164,7 +169,7 @@ export default function WhyBlock() {
             <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
               <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:119">
                 <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                  <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                  <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
                   <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
                 </div>
               </div>
@@ -175,7 +180,7 @@ export default function WhyBlock() {
           </div>
           <div className="absolute h-0 left-[1.875vw] top-[16.042vw] w-[82.552vw]" data-name="navigation" data-node-id="3049:123">
             <div className="absolute inset-[-2.109vw_-0.35%]">
-              <img alt="" className="block max-w-none size-full" src="/images/desktop/imgNavigation1.svg" />
+              <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgNavigation1.svg" />
               {/* Prev Button */}
               <div 
                 className="absolute left-[1vw] top-1/2 -translate-y-1/2 w-[3vw] h-[3vw] cursor-pointer z-10 hover:scale-110 active:scale-95 transition-transform flex items-center justify-center"
