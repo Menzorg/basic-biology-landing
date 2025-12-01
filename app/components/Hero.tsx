@@ -53,9 +53,9 @@ export default function Hero() {
           </p>
           <div className="absolute left-[4.260vw] size-[15.260vw] top-[8.333vw]" data-name="computer-youtube-image-button" data-node-id="3049:147">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgComputerYoutubeImageButton.png" />
-            <div className="absolute inset-0 flex justify-center items-start pt-[12%] pl-[0.5бvw]">
-              <img alt="YouTube" className="w-[6vw] h-auto object-contain" src="/images/desktop/youtube.png" />
-            </div>
+          <div className="absolute inset-0 flex justify-center items-start pt-[12%] pl-[0.6vw]">
+            <img alt="YouTube" className="w-[6vw] h-auto object-contain animate-levitate" src="/images/desktop/youtube.png" />
+          </div>
           </div>
           <div className="absolute flex h-[5.741vw] items-center justify-center left-[17.656vw] top-[5.781vw] w-[4.966vw] z-50">
             <div className="flex-none rotate-[126.804deg]">

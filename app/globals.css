@@ -42,4 +42,20 @@ body {
       transform: translateY(0);
     }
   }
+
+  @keyframes levitate {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+      filter: drop-shadow(0 5px 5px rgba(0,0,0,0.1));
+    }
+    50% {
+      transform: translateY(-15%) scale(1.15);
+      filter: drop-shadow(0 25px 15px rgba(0,0,0,0.2));
+    }
+  }
+
+  .animate-levitate {
+    animation: levitate 3s ease-in-out infinite;
+    will-change: transform, filter;
+  }
 }
