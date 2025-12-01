@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: isProd ? '/nauka.life' : '', // Указываем название репозитория только для продакшена (GitHub Pages)
+  basePath: '/basic-biology-landing', // Указываем название репозитория для корректной работы в подпапке
   images: {
     unoptimized: true,
   },
