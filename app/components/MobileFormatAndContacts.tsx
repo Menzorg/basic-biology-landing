@@ -109,13 +109,15 @@ export default function MobileFormatAndContacts() {
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/img17B84E3181B044B090AcB12Cc5C78EbdNoBgPreviewCarvePhotos2.png" />
         </div>
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[273.867vw] w-[86.400vw]" data-node-id="3049:165">
-          <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-            <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
-            <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw]" />
-          </div>
-        </div>
-        <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center leading-[0] left-[50.000vw] not-italic text-[3.733vw] text-center text-white top-[279.733vw] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:166">
-          <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+          <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+            <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
+              <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+            </div>
+            <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:166">
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+            </div>
+          </a>
         </div>
       </div>
   );

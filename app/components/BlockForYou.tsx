@@ -19,15 +19,17 @@ export default function BlockForYou() {
             <img alt="" className="block max-w-none size-full" height="402" src="/images/desktop/imgImage45.png" width="402" />
           </div>
           <div className="absolute h-[3.594vw] left-[8.854vw] top-[39.844vw] w-[25.833vw]" data-name="sign-up-button" data-node-id="3049:73">
-            <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:74">
-              <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
-                <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
+            <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+              <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:74">
+                <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
+                  <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                  <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+                </div>
               </div>
-            </div>
-            <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:75">
-              <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
-            </div>
+              <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:75">
+                <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
+              </div>
+            </a>
           </div>
           <div className="absolute flex flex-col font-['Arsenal_SC:Bold','Noto_Sans:Regular',sans-serif] h-[40.260vw] justify-center leading-[0] left-0 text-[1.667vw] text-white top-[20.130vw] translate-y-[-50%] w-[48.490vw]" data-node-id="3049:76" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
             <ul className="list-disc whitespace-pre-wrap">
@@ -139,7 +141,7 @@ export default function BlockForYou() {
             <p className="leading-[normal] whitespace-pre-wrap">Этот курс создан для вас</p>
           </div>
         </div>
-        <div className="absolute h-[48.281vw] left-[44.063vw] top-[-41.094vw] w-[55.937vw]" data-name="quote-block" data-node-id="3049:81">
+        <div className="absolute h-[48.281vw] left-[44.063vw] top-[-38.094vw] w-[55.937vw]" data-name="quote-block" data-node-id="3049:81">
           <div className="absolute h-[31.198vw] left-[-43.125vw] overflow-clip top-[8.333vw] w-[44.010vw]" data-name="quote-block-image-background 1" data-node-id="3049:82">
             <img alt="" className="block max-w-none size-full" height="599" src="/images/desktop/imgQuoteBlockImageBackground1.png" width="845" />
           </div>
@@ -166,15 +168,17 @@ export default function BlockForYou() {
             <p className="leading-[normal] whitespace-pre-wrap">{`Цитаты Станислава Дробышевского: `}</p>
           </div>
           <div className="absolute h-[3.594vw] left-[13.750vw] top-[38.802vw] w-[25.833vw]" data-name="sign-up-button" data-node-id="3049:91">
-            <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:92">
-              <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
-                <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
+            <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+              <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:92">
+                <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
+                  <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                  <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+                </div>
               </div>
-            </div>
-            <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:93">
-              <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
-            </div>
+              <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:93">
+                <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

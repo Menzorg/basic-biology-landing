@@ -42,13 +42,15 @@ export default function MobileComfortLearn() {
           Место и время очных лекций
         </p>
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[178.667vw] w-[86.400vw]" data-node-id="3049:192">
-          <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-            <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
-            <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw]" />
-          </div>
-        </div>
-        <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center leading-[0] left-[48.133vw] not-italic text-[3.733vw] text-center text-white top-[184.533vw] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:193">
-          <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+          <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+            <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
+              <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+            </div>
+            <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:193">
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+            </div>
+          </a>
         </div>
         <div className="absolute h-[73.067vw] left-[8.533vw] top-[46.400vw] w-[84.533vw]" data-name="content" data-node-id="3049:194">
           <div className="absolute flex flex-col font-arsenal h-[73.067vw] justify-center leading-[0] left-[4.000vw] not-italic text-[3.733vw] text-black top-[36.533vw] translate-y-[-50%] w-[80.533vw]" data-node-id="3049:195">

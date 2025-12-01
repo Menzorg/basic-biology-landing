@@ -31,17 +31,19 @@ export default function Hero() {
             <div className="absolute flex flex-col font-arsenal h-[11.927vw] justify-center leading-[0] left-[3.333vw] not-italic text-[1.667vw] text-white top-[7.161vw] translate-y-[-50%] w-[44.792vw]" data-node-id="3049:139">
               <p className="leading-[normal] whitespace-pre-wrap">Изучайте тайны ДНК и происхождение человека с антропологом Станиславом Дробышевским. Это не скучный урок, а увлекательное приключение в биологию, после которого мир кажется понятнее. Его лекции собирают тысячи зрителей на YouTube и в залах.</p>
             </div>
-            <div className="absolute h-[3.594vw] left-[11.927vw] top-[13.542vw] w-[25.833vw]" data-name="sign-up-button" data-node-id="3049:140">
+          <div className="absolute h-[3.594vw] left-[11.927vw] top-[13.542vw] w-[25.833vw]" data-name="sign-up-button" data-node-id="3049:140">
+            <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
               <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:141">
                 <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
                   <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
-                  <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
+                  <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
                 </div>
               </div>
-              <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[1.823vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:142">
+              <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:142">
                 <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
               </div>
-            </div>
+            </a>
+          </div>
           </div>
         </div>
         <div className="absolute h-[40.417vw] left-0 overflow-clip top-[53.229vw] w-[46.198vw]" data-name="image-background" data-node-id="3049:143">

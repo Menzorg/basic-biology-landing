@@ -59,15 +59,17 @@ export default function ComfortLearn() {
           </div>
         </div>
         <div className="absolute h-[4.427vw] left-[47.344vw] top-[46.406vw] w-[38.177vw]" data-name="sign-up-button-2" data-node-id="3049:49">
-          <div className="absolute h-[4.427vw] left-0 rounded-[0.729vw] top-0 w-[38.177vw]" data-name="sign-up-button-background" data-node-id="3049:50">
-            <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-              <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
-              <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
+          <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+            <div className="absolute h-[4.427vw] left-0 rounded-[0.729vw] top-0 w-[38.177vw]" data-name="sign-up-button-background" data-node-id="3049:50">
+              <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
+                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+              </div>
             </div>
-          </div>
-          <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[19.115vw] not-italic text-[1.667vw] text-center text-white top-[2.240vw] translate-x-[-50%] translate-y-[-50%] w-[34.583vw]" data-node-id="3049:51">
-            <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
-          </div>
+            <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[34.583vw]" data-node-id="3049:51">
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+            </div>
+          </a>
         </div>
         <div className="absolute h-[4.583vw] left-[48.021vw] top-[37.865vw] w-[37.500vw]" data-name="paragraph-3" data-node-id="3049:52">
           <p className="absolute font-arsenal h-[4.583vw] leading-[normal] left-[3.594vw] not-italic text-[0vw] text-[1.667vw] text-black top-0 w-[33.906vw] whitespace-pre-wrap" data-node-id="3049:53">

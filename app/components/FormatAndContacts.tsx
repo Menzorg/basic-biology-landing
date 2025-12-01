@@ -40,15 +40,17 @@ export default function FormatAndContacts() {
               <p className="leading-[normal] whitespace-pre-wrap">Игорь Власенко</p>
             </div>
             <div className="absolute h-[4.427vw] left-[0.833vw] top-[23.542vw] w-[38.177vw]" data-name="sign-up-button-2" data-node-id="3049:13">
-              <div className="absolute h-[4.427vw] left-0 rounded-[0.729vw] top-0 w-[38.177vw]" data-name="sign-up-button-background" data-node-id="3049:14">
-                <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                  <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
-                  <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
+              <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+                <div className="absolute h-[4.427vw] left-0 rounded-[0.729vw] top-0 w-[38.177vw]" data-name="sign-up-button-background" data-node-id="3049:14">
+                  <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
+                    <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                    <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+                  </div>
                 </div>
-              </div>
-              <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[19.115vw] not-italic text-[1.667vw] text-center text-white top-[2.240vw] translate-x-[-50%] translate-y-[-50%] w-[34.583vw]" data-node-id="3049:15">
-                <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
-              </div>
+                <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[34.583vw]" data-node-id="3049:15">
+                  <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="absolute flex flex-col font-russo h-[6.250vw] justify-center leading-[0] left-[9.323vw] not-italic text-[3.333vw] text-black top-[3.125vw] tracking-[-0.067vw] translate-y-[-50%] w-[68.385vw]" data-node-id="3049:16">

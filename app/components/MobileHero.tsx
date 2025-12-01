@@ -31,7 +31,17 @@ export default function MobileHero() {
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgWave11.png" />
         </div>
         <div className="absolute left-[13.867vw] size-[36.800vw] top-[110.667vw]" data-name="computer-button" data-node-id="3049:260">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgComputerButton.png" />
+          <a 
+            href="https://www.youtube.com/watch?v=Mu0-RAt5Zpc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full h-full cursor-pointer transition-transform hover:scale-105 active:scale-95"
+          >
+            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgComputerButton.png" />
+            <div className="absolute inset-0 flex justify-center items-start pt-[12%] pl-[0.5vw]">
+              <img alt="YouTube" className="w-[14vw] h-auto object-contain animate-levitate" src="/images/mobile/youtube.png" />
+            </div>
+          </a>
         </div>
         <p className="absolute font-russo h-[12.267vw] leading-[89.95500183105469%] left-[9.600vw] not-italic text-[#211044] text-[4.267vw] top-[102.400vw] tracking-[-0.32px] w-[80.800vw] whitespace-pre-wrap" data-node-id="3049:261">
           Кто такой Станислав Дробышевский?

@@ -148,15 +148,17 @@ export default function WhyBlock() {
             </div>
           </div>
           <div className="absolute h-[3.594vw] left-[7.292vw] top-[28.750vw] w-[25.833vw]" data-name="sign-up-button" data-node-id="3049:118">
-            <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:119">
-              <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
-                <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
+            <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+              <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:119">
+                <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
+                  <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                  <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+                </div>
               </div>
-            </div>
-            <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:120">
-              <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
-            </div>
+              <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:120">
+                <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
+              </div>
+            </a>
           </div>
           <div className="absolute h-0 left-[1.875vw] top-[16.042vw] w-[82.552vw]" data-name="navigation" data-node-id="3049:123">
             <div className="absolute inset-[-2.109vw_-0.35%]">
