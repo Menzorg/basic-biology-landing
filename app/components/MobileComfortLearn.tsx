@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MobileComfortLearn() {
   return (
-    <div className="absolute h-[190.400vw] left-0 top-[976.267vw] w-[100.000vw]" data-name="comfort-learn" data-node-id="3049:175">
+    <div className="absolute h-[190.400vw] left-0 top-[996.267vw] w-[100.000vw]" data-name="comfort-learn" data-node-id="3049:175">
         <div className="absolute h-[42.400vw] left-[2.933vw] top-[5.600vw] w-[97.067vw]" data-name="background-mark" data-node-id="3049:176">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark.png" />
         </div>

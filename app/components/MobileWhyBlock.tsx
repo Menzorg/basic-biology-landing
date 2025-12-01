@@ -75,7 +75,7 @@ export default function MobileWhyBlock() {
   const slide = slides[currentSlide];
 
   return (
-    <div className="absolute h-[307.733vw] left-0 top-[259.467vw] w-[100.000vw]" data-name="why-block" data-node-id="3049:219">
+    <div className="absolute h-[307.733vw] left-0 top-[279.467vw] w-[100.000vw]" data-name="why-block" data-node-id="3049:219">
         <div className="absolute h-[165.867vw] left-0 top-[141.867vw] w-[100.000vw]" data-name="description" data-node-id="3049:220">
           <div className="absolute h-[85.600vw] left-0 top-[80.267vw] w-[100.000vw]" data-name="background-mark-2" data-node-id="3049:221">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark4.png" />

@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       {/* Mobile Version */}
-      <div className="block md:hidden relative w-[100vw] h-[1608vw] mx-auto overflow-hidden bg-[#d6ffd9]">
+      <div className="block md:hidden relative w-[100vw] h-[1628vw] mx-auto overflow-hidden bg-[#d6ffd9]">
          <MobileFormatAndContacts />
          <MobileCourseProgram />
          <MobileComfortLearn />

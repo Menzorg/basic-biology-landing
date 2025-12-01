@@ -76,7 +76,7 @@ export default function MobileCourseProgram() {
   const slide = slides[currentSlide];
 
   return (
-    <div className="absolute h-[163.200vw] left-0 top-[1154.933vw] w-[100.000vw]" data-name="course-program-block" data-node-id="3049:167">
+    <div className="absolute h-[163.200vw] left-0 top-[1174.933vw] w-[100.000vw]" data-name="course-program-block" data-node-id="3049:167">
         <div className="absolute h-[48.267vw] left-0 top-[14.933vw] w-[100.000vw]" data-name="Rectangle 252 1" data-node-id="3049:168">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle2521.png" />
         </div>
