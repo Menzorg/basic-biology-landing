@@ -86,7 +86,7 @@ export default function ComfortLearn() {
         <div className="absolute h-[4.271vw] left-[48.021vw] top-[32.135vw] w-[37.760vw]" data-name="paragraph-2" data-node-id="3049:55">
           <p className="absolute font-arsenal h-[4.271vw] leading-[normal] left-[4.063vw] not-italic text-[0vw] text-[1.667vw] text-black top-0 w-[33.698vw] whitespace-pre-wrap" data-node-id="3049:56">
             <span className="font-arsenal font-bold">Где:</span>
-            <span>{` Москва, м. Павелецкая, ул. Дубининская 20, стр. 1, библиотека «Научка»`}</span>
+            <span>{` Москва, Проспект Мира 40, 4 этаж`}</span>
           </p>
           <div className="absolute bottom-[21.95%] left-0 right-[93.52%] top-[21.95%]" data-name="message-icon" data-node-id="3049:57">
             <div className="absolute inset-[-7.61%_-7.45%]">

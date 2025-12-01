@@ -80,13 +80,12 @@ export default function MobileFormatAndContacts() {
           <p className="leading-[89.95500183105469%] whitespace-pre-wrap">С нами ты идешь туда куда надо ТЕБЕ</p>
         </div>
         <div className="absolute flex flex-col font-russo h-[7.467vw] justify-center leading-[0] left-[6.933vw] not-italic text-[4.267vw] text-black top-[160.000vw] translate-y-[-50%] w-[50.933vw]" data-node-id="3049:161">
-          <p className="leading-[normal] whitespace-pre-wrap">Игорь Власенко</p>
+          <p className="leading-[normal] whitespace-pre-wrap">Приемная комиссия</p>
         </div>
         <div className="absolute h-[67.733vw] left-0 top-[212.533vw] w-[100.000vw]" data-name="Rectangle 250 (5) 1" data-node-id="3049:162">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle25051.png" />
         </div>
         <div className="absolute flex flex-col font-arsenal h-[50.933vw] justify-center leading-[0] left-[6.933vw] not-italic text-[3.733vw] text-black top-[186.800vw] translate-y-[-50%] w-[85.867vw] whitespace-pre-wrap" data-node-id="3049:163">
-          <p className="leading-[normal] mb-0">Исполнительный директор проектов Станислава Дробышевского</p>
           <p className="leading-[normal] mb-0">&nbsp;</p>
           <ul className="list-disc mb-0">
             <li className="leading-[normal] mb-0 ms-[5.600vw]">

@@ -17,7 +17,6 @@ export default function FormatAndContacts() {
           </div>
           <div className="absolute h-[30.104vw] left-0 top-[6.979vw] w-[42.292vw]" data-name="left-column" data-node-id="3049:10">
             <div className="absolute flex flex-col font-arsenal h-[20.729vw] justify-center leading-[0] left-[0.833vw] not-italic text-[0vw] text-black top-[13.177vw] translate-y-[-50%] w-[41.458vw] whitespace-pre-wrap" data-node-id="3049:11">
-              <p className="leading-[normal] mb-0 text-[1.667vw]">Исполнительный директор проектов Станислава Дробышевского</p>
               <p className="leading-[normal] mb-0 text-[1.667vw]">&nbsp;</p>
               <ul className="list-disc mb-0">
                 <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] not-italic text-[1.667vw]">
@@ -37,7 +36,7 @@ export default function FormatAndContacts() {
               <p className="leading-[normal] text-[1.667vw]">Вы также можете записаться, отправив письмо на [Ваш Email], указав ФИО и название курса.</p>
             </div>
             <div className="absolute flex flex-col font-russo h-[2.813vw] justify-center leading-[0] left-[11.120vw] not-italic text-[2.500vw] text-black text-center top-[1.406vw] translate-x-[-50%] translate-y-[-50%] w-[22.240vw]" data-node-id="3049:12">
-              <p className="leading-[normal] whitespace-pre-wrap">Игорь Власенко</p>
+              <p className="leading-[normal] whitespace-pre-wrap">Приемная комиссия</p>
             </div>
             <div className="absolute h-[4.427vw] left-[0.833vw] top-[23.542vw] w-[38.177vw]" data-name="sign-up-button-2" data-node-id="3049:13">
               <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">

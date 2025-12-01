@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function MobileBlockForYou() {
   return (
-    <div className="relative h-[440.667vw] w-full" data-name="block-for-you" data-node-id="3049:199">
+    <div className="relative h-[440vw] w-full" data-name="block-for-you" data-node-id="3049:199">
         <div className="absolute h-[100.800vw] left-[9.067vw] top-[13.067vw] w-[90.933vw]" data-name="background-mark-2" data-node-id="3049:200">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark2.png" />
         </div>
-        <div className="absolute h-[221.867vw] left-0 top-[208.800vw] w-[100.000vw]" data-name="bottom-content" data-node-id="3049:201">
+        <div className="absolute h-[221.867vw] left-0 top-[200.800vw] w-[100.000vw]" data-name="bottom-content" data-node-id="3049:201">
           <div className="absolute h-[221.867vw] left-0 top-0 w-[100.000vw]" data-name="background-mark-1" data-node-id="3049:202">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark1.png" />
           </div>
@@ -21,7 +21,7 @@ export default function MobileBlockForYou() {
               <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
                 <span>{`Учителям биологии: `}</span>
                 <span className="font-['Arsenal_SC:Regular','Noto_Sans:Regular',sans-serif]" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
-                  официальное повышение квалификации (≥72 ак. часов) и современные методики преподавания.
+                  официальное повышение квалификации (≥36 ак. часов) и современные методики преподавания.
                 </span>
                 <span>
                   <br aria-hidden="true" />
@@ -78,7 +78,7 @@ export default function MobileBlockForYou() {
             <p className="leading-[normal] whitespace-pre-wrap">Почувствуйте себя Индианой Джонсом: от теории к практике</p>
           </div>
         </div>
-        <div className="absolute h-[156.533vw] left-0 top-[111.733vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:207">
+        <div className="absolute h-[156.533vw] left-0 top-[103.733vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:207">
           <div className="absolute h-[155.733vw] left-0 top-0 w-[100.000vw]" data-name="background-mark" data-node-id="3049:208">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark3.png" />
           </div>
@@ -169,7 +169,7 @@ export default function MobileBlockForYou() {
         </div>
 
         {/* Button 1: Under Quotes */}
-        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[96vw] w-[86.400vw] z-20">
+        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[88vw] w-[86.400vw] z-20">
             <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
                 <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
@@ -182,7 +182,7 @@ export default function MobileBlockForYou() {
         </div>
 
         {/* Button 2: Under Indiana Jones */}
-        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[435vw] w-[86.400vw] z-20">
+        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[427vw] w-[86.400vw] z-20">
             <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
                 <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />

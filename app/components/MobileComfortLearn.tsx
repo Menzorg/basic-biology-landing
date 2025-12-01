@@ -19,7 +19,7 @@ export default function MobileComfortLearn() {
           </div>
           <div className="absolute h-[12.000vw] left-[1.067vw] top-[18.400vw] w-[86.400vw]" data-name="paragraph-2" data-node-id="3049:181">
             <div className="absolute flex flex-col font-arsenal h-[12.000vw] justify-center leading-[0] left-[14.133vw] not-italic text-[3.733vw] text-black top-[6.000vw] translate-y-[-50%] w-[72.267vw]" data-node-id="3049:182">
-              <p className="leading-[normal] whitespace-pre-wrap">{`Где: Москва, м. Павелецкая, ул. Дубининская 20, стр. 1, библиотека «Научка» `}</p>
+              <p className="leading-[normal] whitespace-pre-wrap">{`Где: Москва, Проспект Мира 40, 4 этаж `}</p>
             </div>
             <div className="absolute aspect-[47/46] left-[1.23%] right-[88.27%] top-1/2 translate-y-[-50%]" data-name="message-icon" data-node-id="3049:183">
               <div className="absolute inset-[-4.55%_-4.41%]">
@@ -48,7 +48,7 @@ export default function MobileComfortLearn() {
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:193">
-              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ СЕМЕСТР</p>
             </div>
           </a>
         </div>
