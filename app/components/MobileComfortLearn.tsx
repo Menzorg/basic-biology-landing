@@ -1,11 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
+import imgBackgroundMark from '../assets/mobile/imgBackgroundMark.png';
+import imgSpanner from '../assets/mobile/imgSpanner.svg';
+import imgMessageIcon from '../assets/mobile/imgMessageIcon.svg';
+import imgFileIcon from '../assets/mobile/imgFileIcon.svg';
+import imgRectangle256 from '../assets/mobile/imgRectangle256.png';
+import imgContentLine from '../assets/mobile/imgContentLine.svg';
 
 export default function MobileComfortLearn() {
   return (
     <div className="relative h-[190.400vw] w-full" data-name="comfort-learn" data-node-id="3049:175">
         <div className="absolute h-[42.400vw] left-[2.933vw] top-[5.600vw] w-[97.067vw]" data-name="background-mark" data-node-id="3049:176">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBackgroundMark} />
         </div>
         <div className="absolute h-[44.533vw] left-[4.800vw] top-[129.067vw] w-[87.467vw]" data-name="content-2-block" data-node-id="3049:177">
           <div className="absolute h-[10.133vw] left-0 top-[34.400vw] w-[82.667vw]" data-name="paragraph-3" data-node-id="3049:178">
@@ -14,7 +20,7 @@ export default function MobileComfortLearn() {
             </div>
             <div className="absolute aspect-[47/46] left-[1.29%] right-[87.42%] top-1/2 translate-y-[-50%]" data-name="spanner" data-node-id="3049:180">
               <div className="absolute inset-[-4.41%_-4.29%]">
-                <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgSpanner.svg" />
+                <Image fill alt="" className="block max-w-none size-full" src={imgSpanner} />
               </div>
             </div>
           </div>
@@ -24,7 +30,7 @@ export default function MobileComfortLearn() {
             </div>
             <div className="absolute aspect-[47/46] left-[1.23%] right-[88.27%] top-1/2 translate-y-[-50%]" data-name="message-icon" data-node-id="3049:183">
               <div className="absolute inset-[-4.55%_-4.41%]">
-                <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgMessageIcon.svg" />
+                <Image fill alt="" className="block max-w-none size-full" src={imgMessageIcon} />
               </div>
             </div>
           </div>
@@ -34,7 +40,7 @@ export default function MobileComfortLearn() {
             </div>
             <div className="absolute h-[8.800vw] left-[0.800vw] top-[4.267vw] w-[7.200vw]" data-name="file-icon" data-node-id="3049:186">
               <div className="absolute inset-[-4.55%_-5.56%]">
-                <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgFileIcon.svg" />
+                <Image fill alt="" className="block max-w-none size-full" src={imgFileIcon} />
               </div>
             </div>
           </div>
@@ -45,7 +51,7 @@ export default function MobileComfortLearn() {
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[178.667vw] w-[86.400vw]" data-node-id="3049:192">
           <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src={imgRectangle256} />
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:193">
@@ -87,7 +93,7 @@ export default function MobileComfortLearn() {
             <div className="flex-none rotate-[90deg]">
               <div className="h-0 relative w-[69.600vw]" data-name="content-line" data-node-id="3049:196">
                 <div className="absolute bottom-0 left-0 right-0 top-[-1.867vw]">
-                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgContentLine.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgContentLine} />
                 </div>
               </div>
             </div>

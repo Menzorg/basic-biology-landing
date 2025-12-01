@@ -1,14 +1,23 @@
 import React from 'react';
 import Image from 'next/image';
+import imgBackgroundMark5 from '../assets/mobile/imgBackgroundMark5.png';
+import imgBackgroundMark6 from '../assets/mobile/imgBackgroundMark6.png';
+import imgRectangle256 from '../assets/mobile/imgRectangle256.png';
+import imgBackground1 from '../assets/mobile/imgBackground1.png';
+import imgScientistPhoto11 from '../assets/mobile/imgScientistPhoto11.png';
+import imgWave11 from '../assets/mobile/imgWave11.png';
+import imgComputerButton from '../assets/mobile/imgComputerButton.png';
+import imgYoutube from '../assets/mobile/youtube.png';
+import imgSittingScientist from '../assets/mobile/imgSittingScientist.png';
 
 export default function MobileHero() {
   return (
     <div className="relative h-[277.067vw] w-full" data-name="top-block" data-node-id="3049:248">
         <div className="absolute h-[95.467vw] left-0 top-[132.533vw] w-[98.400vw]" data-name="background-mark-2" data-node-id="3049:249">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark5.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBackgroundMark5} />
         </div>
         <div className="absolute h-[79.200vw] left-[0.800vw] top-[33.867vw] w-[99.200vw]" data-name="background-mark-1" data-node-id="3049:250">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark6.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBackgroundMark6} />
         </div>
         <div className="absolute h-[46.133vw] left-[6.933vw] top-[210.933vw] w-[86.400vw]" data-name="scientist-info" data-node-id="3049:251">
           <div className="absolute bg-[#44385d] h-[46.133vw] left-0 rounded-[9.867vw] top-0 w-[86.400vw]" data-node-id="3049:252" />
@@ -19,7 +28,7 @@ export default function MobileHero() {
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[262vw] w-[86.400vw]">
           <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src={imgRectangle256} />
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
@@ -29,7 +38,7 @@ export default function MobileHero() {
         </div>
         <div className="absolute h-[60.800vw] left-0 top-0 w-[100.000vw]" data-name="tittle-cloud" data-node-id="3049:254">
           <div className="absolute h-[58.933vw] left-0 top-0 w-[100.000vw]" data-name="background" data-node-id="3049:255">
-            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackground1.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBackground1} />
           </div>
           <p className="absolute font-russo h-[19.467vw] leading-[89.95500183105469%] left-[4.000vw] not-italic text-[4.267vw] text-white top-[23.467vw] tracking-[-0.32px] w-[82.133vw] whitespace-pre-wrap z-20" data-node-id="3049:257">
             с Станиславом Дробышевским
@@ -37,10 +46,10 @@ export default function MobileHero() {
           <p className="absolute font-russo h-[51.733vw] leading-[89.95500183105469%] left-[4.000vw] not-italic text-[6.400vw] text-white top-[7.467vw] tracking-[-0.48px] w-[96.800vw] whitespace-pre-wrap z-10" data-node-id="3049:256">{`Станьте частью эволюции: курс "Общая биология"`}</p>
         </div>
         <div className="absolute h-[68.000vw] left-0 top-[30.933vw] w-[100.000vw]" data-name="scientist-photo (1) 1" data-node-id="3049:258">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgScientistPhoto11.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScientistPhoto11} />
         </div>
         <div className="absolute h-[115.200vw] left-0 top-[95.733vw] w-[100.000vw]" data-name="wave (1) 1" data-node-id="3049:259">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgWave11.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgWave11} />
         </div>
         <div className="absolute left-[13.867vw] size-[36.800vw] top-[110.667vw]" data-name="computer-button" data-node-id="3049:260">
           <a 
@@ -49,10 +58,10 @@ export default function MobileHero() {
             rel="noopener noreferrer"
             className="block w-full h-full cursor-pointer transition-transform hover:scale-105 active:scale-95"
           >
-            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgComputerButton.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgComputerButton} />
             <div className="absolute inset-0 flex justify-center items-start pt-[12%] pl-[0.5vw]">
               <div className="relative w-[14vw] h-[10vw]">
-                <Image fill alt="YouTube" className="object-contain animate-levitate" src="/images/mobile/youtube.png" />
+                <Image fill alt="YouTube" className="object-contain animate-levitate" src={imgYoutube} />
               </div>
             </div>
           </a>
@@ -63,7 +72,7 @@ export default function MobileHero() {
           </p>
         </div>
         <div className="absolute h-[73.600vw] left-0 top-[137.333vw] w-[98.400vw]" data-name="sitting-scientist" data-node-id="3049:262">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgSittingScientist.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgSittingScientist} />
         </div>
       </div>
   );

@@ -1,14 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
+import imgRectangle25041 from '../assets/mobile/imgRectangle25041.png';
+import imgRectangle25111 from '../assets/mobile/imgRectangle25111.png';
+import imgRectangle25051 from '../assets/mobile/imgRectangle25051.png';
+import imgCarvePhotos from '../assets/mobile/img17B84E3181B044B090AcB12Cc5C78EbdNoBgPreviewCarvePhotos2.png';
+import imgRectangle256 from '../assets/mobile/imgRectangle256.png';
 
 export default function MobileFormatAndContacts() {
   return (
     <div className="relative h-[287.200vw] w-full" data-name="format-and-contacts" data-node-id="3049:150">
         <div className="absolute h-[96.000vw] left-0 top-[68.267vw] w-[68.800vw]" data-name="Rectangle 250 (4) 1" data-node-id="3049:151">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle25041.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgRectangle25041} />
         </div>
         <div className="absolute h-[88.533vw] left-[26.400vw] top-[4.267vw] w-[73.600vw]" data-name="Rectangle 251 (1) 1" data-node-id="3049:152">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle25111.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgRectangle25111} />
         </div>
         <div className="absolute flex flex-col font-russo h-[12.000vw] justify-center leading-[0] left-[6.933vw] not-italic text-[4.267vw] text-black top-[4.400vw] tracking-[-0.32px] translate-y-[-50%] w-[72.267vw]" data-node-id="3049:153">
           <p className="leading-[89.95500183105469%] whitespace-pre-wrap">Выберите свой формат участия.</p>
@@ -84,7 +89,7 @@ export default function MobileFormatAndContacts() {
           <p className="leading-[normal] whitespace-pre-wrap">Приемная комиссия</p>
         </div>
         <div className="absolute h-[67.733vw] left-0 top-[212.533vw] w-[100.000vw]" data-name="Rectangle 250 (5) 1" data-node-id="3049:162">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle25051.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgRectangle25051} />
         </div>
         <div className="absolute flex flex-col font-arsenal h-[50.933vw] justify-center leading-[0] left-[6.933vw] not-italic text-[3.733vw] text-black top-[186.800vw] translate-y-[-50%] w-[85.867vw] whitespace-pre-wrap" data-node-id="3049:163">
           <p className="leading-[normal] mb-0">&nbsp;</p>
@@ -106,12 +111,12 @@ export default function MobileFormatAndContacts() {
           <p className="leading-[normal]">Вы также можете записаться, отправив письмо на [Ваш Email], указав ФИО и название курса.</p>
         </div>
         <div className="absolute left-[18.133vw] size-[63.467vw] top-[207.467vw]" data-name="17b84e31-81b0-44b0-90ac-b12cc5c78ebd-no-bg-preview (carve.photos) 2" data-node-id="3049:164">
-          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/img17B84E3181B044B090AcB12Cc5C78EbdNoBgPreviewCarvePhotos2.png" />
+          <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgCarvePhotos} />
         </div>
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[273.867vw] w-[86.400vw]" data-node-id="3049:165">
           <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src={imgRectangle256} />
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:166">

@@ -5,6 +5,14 @@ import imgImage1 from '../assets/mobile/imgImage1.png';
 import imgSliderImage2 from '../assets/desktop/imgSliderImage2.png';
 import imgSliderImage3 from '../assets/desktop/imgSliderImage3.png';
 import imgSliderImage4 from '../assets/desktop/imgSliderImage4.png';
+import imgRectangle256 from '../assets/mobile/imgRectangle256.png';
+import imgBackgroundMark4 from '../assets/mobile/imgBackgroundMark4.png';
+import imgImage from '../assets/mobile/imgImage.png';
+import imgSpanner from '../assets/mobile/imgSpanner.svg';
+import imgMessageIcon from '../assets/mobile/imgMessageIcon.svg';
+import imgFileIcon from '../assets/mobile/imgFileIcon.svg';
+import imgBacgroundMark1 from '../assets/mobile/imgBacgroundMark1.png';
+import imgRectangle253 from '../assets/mobile/imgRectangle253.png';
 
 const slides = [
   {
@@ -45,7 +53,7 @@ export default function MobileWhyBlock() {
   useEffect(() => {
     const timer = setInterval(() => {
       handleNext();
-    }, 8000);
+    }, 3000);
 
     return () => clearInterval(timer);
   }, []);
@@ -81,7 +89,7 @@ export default function MobileWhyBlock() {
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[145vw] w-[86.400vw] z-20">
           <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
-              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src={imgRectangle256} />
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
@@ -91,10 +99,10 @@ export default function MobileWhyBlock() {
         </div>
         <div className="absolute h-[165.867vw] left-0 top-[161.867vw] w-[100.000vw]" data-name="description" data-node-id="3049:220">
           <div className="absolute h-[85.600vw] left-0 top-[80.267vw] w-[100.000vw]" data-name="background-mark-2" data-node-id="3049:221">
-            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark4.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBackgroundMark4} />
           </div>
           <div className="absolute left-[17.067vw] size-[65.867vw] top-[91.467vw]" data-name="image" data-node-id="3049:222">
-            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgImage.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage} />
           </div>
           <div className="absolute h-[44.533vw] left-[4.800vw] top-[47.733vw] w-[87.467vw]" data-name="content-2-block" data-node-id="3049:223">
             <div className="absolute h-[10.133vw] left-0 top-[34.400vw] w-[82.667vw]" data-name="paragraph-3" data-node-id="3049:224">
@@ -103,7 +111,7 @@ export default function MobileWhyBlock() {
               </div>
               <div className="absolute aspect-[47/46] left-[1.29%] right-[87.42%] top-1/2 translate-y-[-50%]" data-name="spanner" data-node-id="3049:226">
                 <div className="absolute inset-[-4.41%_-4.29%]">
-                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgSpanner.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgSpanner} />
                 </div>
               </div>
             </div>
@@ -113,7 +121,7 @@ export default function MobileWhyBlock() {
               </div>
               <div className="absolute aspect-[47/46] left-[1.23%] right-[88.27%] top-1/2 translate-y-[-50%]" data-name="message-icon" data-node-id="3049:229">
                 <div className="absolute inset-[-4.55%_-4.41%]">
-                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgMessageIcon.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgMessageIcon} />
                 </div>
               </div>
             </div>
@@ -123,14 +131,14 @@ export default function MobileWhyBlock() {
               </div>
               <div className="absolute h-[8.800vw] left-[0.800vw] top-[4.267vw] w-[7.200vw]" data-name="file-icon" data-node-id="3049:232">
                 <div className="absolute inset-[-4.55%_-5.56%]">
-                  <Image fill alt="" className="block max-w-none size-full" src="/images/mobile/imgFileIcon.svg" />
+                  <Image fill alt="" className="block max-w-none size-full" src={imgFileIcon} />
                 </div>
               </div>
             </div>
           </div>
           <div className="absolute h-[48.267vw] left-0 top-0 w-[100.000vw]" data-name="content-1-block" data-node-id="3049:237">
             <div className="absolute h-[48.267vw] left-0 top-0 w-[100.000vw]" data-name="bacground-mark" data-node-id="3049:238">
-              <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBacgroundMark1.png" />
+              <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBacgroundMark1} />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[38.400vw] justify-center leading-[normal] left-[9.600vw] not-italic text-[3.733vw] text-black top-[27.733vw] translate-y-[-50%] w-[81.067vw] whitespace-pre-wrap" data-node-id="3049:239">
               <p className="mb-0">{`Это не тот предмет, который вы учили в школе или университете. Станислав Дробышевский ломает рамки между дисциплинами. Вы увидите, как законы экологии влияют на генетику, а анатомия диктует эволюцию. `}</p>
@@ -151,7 +159,7 @@ export default function MobileWhyBlock() {
           onTouchEnd={handleTouchEnd}
         >
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background-image" data-node-id="3049:242">
-            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src={imgRectangle253} />
             <div 
               className="absolute inset-0 rounded-[10.933vw]" 
               style={{ background: 'linear-gradient(90deg, #3F5E4F 33%, rgba(143, 119, 195, 0.52) 100%)' }} 

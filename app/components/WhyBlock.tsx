@@ -5,6 +5,13 @@ import imgVector from '../assets/desktop/imgVector.png';
 import imgSliderImage2 from '../assets/desktop/imgSliderImage2.png';
 import imgSliderImage3 from '../assets/desktop/imgSliderImage3.png';
 import imgSliderImage4 from '../assets/desktop/imgSliderImage4.png';
+import imgDescriptionBackground1 from '../assets/desktop/imgDescriptionBackground1.png';
+import imgSpanner from '../assets/desktop/imgSpanner.svg';
+import imgMessageIcon from '../assets/desktop/imgMessageIcon.svg';
+import imgFileIcon from '../assets/desktop/imgFileIcon.svg';
+import imgBackgroundImage from '../assets/desktop/imgBackgroundImage.png';
+import imgSignUpButtonBackground from '../assets/desktop/imgSignUpButtonBackground.png';
+import imgNavigation1 from '../assets/desktop/imgNavigation1.svg';
 
 const slides = [
   {
@@ -28,12 +35,6 @@ const slides = [
     image: imgSliderImage4
   }
 ];
-
-// Image constants for the description block
-const imgDescriptionBackground1 = "/images/desktop/imgDescriptionBackground1.png";
-const imgSpanner = "/images/desktop/imgSpanner.svg";
-const imgMessageIcon = "/images/desktop/imgMessageIcon.svg";
-const imgFileIcon = "/images/desktop/imgFileIcon.svg";
 
 export default function WhyBlock() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -147,7 +148,7 @@ export default function WhyBlock() {
           onMouseLeave={() => setIsHovered(false)}
         >
           <div className="absolute h-[35.677vw] left-0 rounded-[4.844vw] top-0 w-[87.031vw]" data-name="slider-background-image" data-node-id="3049:114">
-            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src="/images/desktop/imgBackgroundImage.png" />
+            <Image fill alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src={imgBackgroundImage} />
           </div>
           <div className="absolute bg-gradient-to-r from-[#3f5e4f] from-[32.919%] h-[35.677vw] left-0 rounded-[4.844vw] to-[99.072%] to-[rgba(143,119,195,0.52)] top-0 w-[87.031vw]" data-name="slider-background" data-node-id="3049:115" />
           <div key={currentSlide} className="animate-fade-in absolute inset-0">
@@ -169,7 +170,7 @@ export default function WhyBlock() {
             <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
               <div className="absolute h-[3.594vw] left-0 rounded-[0.729vw] top-0 w-[25.833vw]" data-name="sign-up-button-background" data-node-id="3049:119">
                 <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[0.729vw]">
-                  <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src="/images/desktop/imgSignUpButtonBackground.png" />
+                  <Image fill alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[0.729vw] size-full" src={imgSignUpButtonBackground} />
                   <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
                 </div>
               </div>
@@ -180,7 +181,7 @@ export default function WhyBlock() {
           </div>
           <div className="absolute h-0 left-[1.875vw] top-[16.042vw] w-[82.552vw]" data-name="navigation" data-node-id="3049:123">
             <div className="absolute inset-[-2.109vw_-0.35%]">
-              <Image fill alt="" className="block max-w-none size-full" src="/images/desktop/imgNavigation1.svg" />
+              <Image fill alt="" className="block max-w-none size-full" src={imgNavigation1} />
               {/* Prev Button */}
               <div 
                 className="absolute left-[1vw] top-1/2 -translate-y-1/2 w-[3vw] h-[3vw] cursor-pointer z-10 hover:scale-110 active:scale-95 transition-transform flex items-center justify-center"
