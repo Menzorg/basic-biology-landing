@@ -18,16 +18,6 @@ const russoOne = Russo_One({
   subsets: ["cyrillic", "latin"],
 });
 
-// Arsenal SC is not directly available as Arsenal_SC in next/font/google in some versions, 
-// but Arsenal is. The design asked for Arsenal SC. 
-// Let's try importing Arsenal first, often they are the same or similar enough for initial impl.
-// Note: "Arsenal SC" is a separate font on Google Fonts. 
-// Next.js usually supports all Google Fonts. Let's try importing Arsenal_SC if it exists, otherwise fallback to Arsenal.
-// I'll use 'Arsenal' for now as a safe bet or 'Arsenal_SC' if I can confirm. 
-// Actually, let's check if I can use the string name in a different way or just assume it works.
-// If it fails I will fix it.
-// Using 'Arsenal' with classname for now.
-
 const arsenal = Arsenal({
   weight: ["400", "700"],
   variable: "--font-arsenal",

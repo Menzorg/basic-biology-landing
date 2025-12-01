@@ -74,7 +74,7 @@ export default function MobileBlockForYou() {
               </li>
             </ul>
           </div>
-          <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[18.400vw] justify-center leading-[0] left-[6.933vw] not-italic text-[4.267vw] text-white top-[68.667vw] translate-y-[-50%] w-[86.400vw]" data-node-id="3049:206">
+          <div className="absolute flex flex-col font-russo h-[18.400vw] justify-center leading-[0] left-[6.933vw] not-italic text-[4.267vw] text-white top-[68.667vw] translate-y-[-50%] w-[86.400vw]" data-node-id="3049:206">
             <p className="leading-[normal] whitespace-pre-wrap">Почувствуйте себя Индианой Джонсом: от теории к практике</p>
           </div>
         </div>
@@ -95,56 +95,56 @@ export default function MobileBlockForYou() {
           <div className="absolute left-[55.733vw] size-[37.600vw] top-[99.467vw]" data-name="school" data-node-id="3049:211">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgSchool.png" />
           </div>
-          <div className="absolute flex flex-col font-['Arsenal_SC:Bold',sans-serif] h-[98.400vw] justify-center leading-[0] left-[6.933vw] not-italic text-[0vw] text-white top-[59.600vw] translate-y-[-50%] w-[69.333vw]" data-node-id="3049:212">
+          <div className="absolute flex flex-col font-arsenal font-bold h-[98.400vw] justify-center leading-[0] left-[6.933vw] not-italic text-[0vw] text-white top-[59.600vw] translate-y-[-50%] w-[69.333vw]" data-node-id="3049:212">
             <ul className="mb-0">
               <li className="leading-[normal] list-disc ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw] whitespace-pre-wrap">
                 <span>{`Учителям: `}</span>
-                <span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">повышение квалификации и новые методики.</span>
+                <span className="font-arsenal not-italic">повышение квалификации и новые методики.</span>
               </li>
             </ul>
             <p className="leading-[normal] mb-0 text-[3.733vw] whitespace-pre-wrap">&nbsp;</p>
             <ul className="list-disc mb-0 whitespace-pre-wrap">
               <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
-                Школьникам:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">подготовка к ЕГЭ и олимпиадам.</span>
+                Школьникам:<span className="font-arsenal not-italic">подготовка к ЕГЭ и олимпиадам.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
-                Студентам:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">актуальные научные методы.</span>
+                Студентам:<span className="font-arsenal not-italic">актуальные научные методы.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
-                Для смены профессии:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">профпереподготовка.</span>
+                Для смены профессии:<span className="font-arsenal not-italic">профпереподготовка.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
-                Ученым:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">обмен опытом с антропологом.</span>
+                Ученым:<span className="font-arsenal not-italic">обмен опытом с антропологом.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
-                Всем:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">еженедельный интеллектуальный заряд.</span>
+                Всем:<span className="font-arsenal not-italic">еженедельный интеллектуальный заряд.</span>
               </li>
             </ul>
             <p className="leading-[normal] text-[3.733vw] whitespace-pre-wrap">&nbsp;</p>
           </div>
-          <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[12.533vw] justify-center leading-[0] left-[35.067vw] not-italic text-[4.267vw] text-center text-white top-[10.267vw] translate-x-[-50%] translate-y-[-50%] w-[70.133vw]" data-node-id="3049:213">
+          <div className="absolute flex flex-col font-russo h-[12.533vw] justify-center leading-[0] left-[35.067vw] not-italic text-[4.267vw] text-center text-white top-[10.267vw] translate-x-[-50%] translate-y-[-50%] w-[70.133vw]" data-node-id="3049:213">
             <p className="leading-[normal] whitespace-pre-wrap">Этот курс создан для вас</p>
           </div>
         </div>
         <div className="absolute h-[94.667vw] left-[6.933vw] top-0 w-[86.400vw]" data-name="quote-block" data-node-id="3049:214">
           <div className="absolute h-[86.933vw] left-0 top-[7.733vw] w-[86.400vw]" data-name="content" data-node-id="3049:215">
-            <div className="absolute font-['Arsenal_SC:Regular',sans-serif] h-[86.933vw] leading-[normal] left-[4.800vw] not-italic text-[3.733vw] text-black top-0 w-[81.600vw] whitespace-pre-wrap" data-node-id="3049:216">
+            <div className="absolute font-arsenal h-[86.933vw] leading-[normal] left-[4.800vw] not-italic text-[3.733vw] text-black top-0 w-[81.600vw] whitespace-pre-wrap" data-node-id="3049:216">
               <p className="mb-0">&nbsp;</p>
               <p className="mb-0">&nbsp;</p>
               <p className="mb-0">{`"Биология — наука огромная... и вечная проблема... приходится рассказывать про какие-то маленькие кусочки... всего конечно не объять, но рассказать про многое можно, что и будет сделано на курсе.`}</p>
@@ -163,7 +163,7 @@ export default function MobileBlockForYou() {
               </div>
             </div>
           </div>
-          <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[17.600vw] justify-center leading-[0] left-0 not-italic text-[4.267vw] text-black top-[8.800vw] translate-y-[-50%] w-[78.400vw]" data-node-id="3049:218">
+          <div className="absolute flex flex-col font-russo h-[17.600vw] justify-center leading-[0] left-0 not-italic text-[4.267vw] text-black top-[8.800vw] translate-y-[-50%] w-[78.400vw]" data-node-id="3049:218">
             <p className="leading-[normal] whitespace-pre-wrap">{`Прямая речь Станислава Дробышевского: `}</p>
           </div>
         </div>

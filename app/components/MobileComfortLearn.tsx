@@ -8,7 +8,7 @@ export default function MobileComfortLearn() {
         </div>
         <div className="absolute h-[44.533vw] left-[4.800vw] top-[129.067vw] w-[87.467vw]" data-name="content-2-block" data-node-id="3049:177">
           <div className="absolute h-[10.133vw] left-0 top-[34.400vw] w-[82.667vw]" data-name="paragraph-3" data-node-id="3049:178">
-            <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[10.133vw] justify-center leading-[0] left-[14.400vw] not-italic text-[3.733vw] text-black top-[5.067vw] translate-y-[-50%] w-[68.267vw]" data-node-id="3049:179">
+            <div className="absolute flex flex-col font-arsenal h-[10.133vw] justify-center leading-[0] left-[14.400vw] not-italic text-[3.733vw] text-black top-[5.067vw] translate-y-[-50%] w-[68.267vw]" data-node-id="3049:179">
               <p className="leading-[normal] whitespace-pre-wrap">Онлайн: Для всех лекций доступна прямая трансляция</p>
             </div>
             <div className="absolute aspect-[47/46] left-[1.29%] right-[87.42%] top-1/2 translate-y-[-50%]" data-name="spanner" data-node-id="3049:180">
@@ -18,7 +18,7 @@ export default function MobileComfortLearn() {
             </div>
           </div>
           <div className="absolute h-[12.000vw] left-[1.067vw] top-[18.400vw] w-[86.400vw]" data-name="paragraph-2" data-node-id="3049:181">
-            <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[12.000vw] justify-center leading-[0] left-[14.133vw] not-italic text-[3.733vw] text-black top-[6.000vw] translate-y-[-50%] w-[72.267vw]" data-node-id="3049:182">
+            <div className="absolute flex flex-col font-arsenal h-[12.000vw] justify-center leading-[0] left-[14.133vw] not-italic text-[3.733vw] text-black top-[6.000vw] translate-y-[-50%] w-[72.267vw]" data-node-id="3049:182">
               <p className="leading-[normal] whitespace-pre-wrap">{`Где: Москва, м. Павелецкая, ул. Дубининская 20, стр. 1, библиотека «Научка» `}</p>
             </div>
             <div className="absolute aspect-[47/46] left-[1.23%] right-[88.27%] top-1/2 translate-y-[-50%]" data-name="message-icon" data-node-id="3049:183">
@@ -28,7 +28,7 @@ export default function MobileComfortLearn() {
             </div>
           </div>
           <div className="absolute h-[17.333vw] left-[1.067vw] top-0 w-[86.400vw]" data-name="paragraph-1" data-node-id="3049:184">
-            <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[17.333vw] justify-center leading-[0] left-[13.333vw] not-italic text-[3.733vw] text-black top-[8.667vw] translate-y-[-50%] w-[73.067vw]" data-node-id="3049:185">
+            <div className="absolute flex flex-col font-arsenal h-[17.333vw] justify-center leading-[0] left-[13.333vw] not-italic text-[3.733vw] text-black top-[8.667vw] translate-y-[-50%] w-[73.067vw]" data-node-id="3049:185">
               <p className="leading-[normal] whitespace-pre-wrap">{`Когда: С 20 сентября, по средам, 19:00 `}</p>
             </div>
             <div className="absolute h-[8.800vw] left-[0.800vw] top-[4.267vw] w-[7.200vw]" data-name="file-icon" data-node-id="3049:186">
@@ -38,7 +38,7 @@ export default function MobileComfortLearn() {
             </div>
           </div>
         </div>
-        <p className="absolute font-['Russo_One:Regular',sans-serif] h-[9.333vw] leading-[normal] left-[8.533vw] not-italic text-[4.267vw] text-black top-[124.267vw] w-[72.267vw] whitespace-pre-wrap" data-node-id="3049:191">
+        <p className="absolute font-russo h-[9.333vw] leading-[normal] left-[8.533vw] not-italic text-[4.267vw] text-black top-[124.267vw] w-[72.267vw] whitespace-pre-wrap" data-node-id="3049:191">
           Место и время очных лекций
         </p>
         <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[178.667vw] w-[86.400vw]" data-node-id="3049:192">
@@ -47,27 +47,27 @@ export default function MobileComfortLearn() {
             <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw]" />
           </div>
         </div>
-        <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[9.067vw] justify-center leading-[0] left-[48.133vw] not-italic text-[3.733vw] text-center text-white top-[184.533vw] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:193">
+        <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center leading-[0] left-[48.133vw] not-italic text-[3.733vw] text-center text-white top-[184.533vw] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:193">
           <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
         </div>
         <div className="absolute h-[73.067vw] left-[8.533vw] top-[46.400vw] w-[84.533vw]" data-name="content" data-node-id="3049:194">
-          <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[73.067vw] justify-center leading-[0] left-[4.000vw] not-italic text-[3.733vw] text-black top-[36.533vw] translate-y-[-50%] w-[80.533vw]" data-node-id="3049:195">
+          <div className="absolute flex flex-col font-arsenal h-[73.067vw] justify-center leading-[0] left-[4.000vw] not-italic text-[3.733vw] text-black top-[36.533vw] translate-y-[-50%] w-[80.533vw]" data-node-id="3049:195">
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">
-              <span className="font-['Arsenal_SC:Bold',sans-serif] not-italic">Продолжительность:</span>
+              <span className="font-arsenal font-bold not-italic">Продолжительность:</span>
               <span>{` Февраль — Декабрь `}</span>
             </p>
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">&nbsp;</p>
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">
-              <span className="font-['Arsenal_SC:Bold',sans-serif] not-italic">Практика:</span>
+              <span className="font-arsenal font-bold not-italic">Практика:</span>
               <span>{` Включает июльскую археологическую практику `}</span>
             </p>
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">&nbsp;</p>
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">
-              <span className="font-['Arsenal_SC:Bold',sans-serif] not-italic">Формат:</span>
+              <span className="font-arsenal font-bold not-italic">Формат:</span>
               <span>{` Очно-заочный (дистанционные технологии + очная практика) `}</span>
             </p>
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">&nbsp;</p>
-            <p className="font-['Arsenal_SC:Bold',sans-serif] leading-[normal] mb-0 whitespace-pre-wrap">{`Ваш результат (на выбор): `}</p>
+            <p className="font-arsenal font-bold leading-[normal] mb-0 whitespace-pre-wrap">{`Ваш результат (на выбор): `}</p>
             <ul className="list-disc whitespace-pre-wrap">
               <li className="mb-0 ms-[5.600vw]">
                 <span className="leading-[normal]">{`Сертификат (за отдельные лекции) `}</span>
@@ -90,10 +90,10 @@ export default function MobileComfortLearn() {
             </div>
           </div>
         </div>
-        <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[14.933vw] justify-center leading-[0] left-[8.533vw] not-italic text-[4.267vw] text-black top-[38.933vw] translate-y-[-50%] w-[84.533vw]" data-node-id="3049:197">
+        <div className="absolute flex flex-col font-russo h-[14.933vw] justify-center leading-[0] left-[8.533vw] not-italic text-[4.267vw] text-black top-[38.933vw] translate-y-[-50%] w-[84.533vw]" data-node-id="3049:197">
           <p className="leading-[normal] whitespace-pre-wrap">Формат обучения</p>
         </div>
-        <p className="absolute font-['Russo_One:Regular',sans-serif] h-[14.133vw] leading-[89.95500183105469%] left-[51.733vw] not-italic text-[6.400vw] text-black text-center top-[13.333vw] tracking-[-0.48px] translate-x-[-50%] w-[59.733vw] whitespace-pre-wrap" data-node-id="3049:198">
+        <p className="absolute font-russo h-[14.133vw] leading-[89.95500183105469%] left-[51.733vw] not-italic text-[6.400vw] text-black text-center top-[13.333vw] tracking-[-0.48px] translate-x-[-50%] w-[59.733vw] whitespace-pre-wrap" data-node-id="3049:198">
           Учитесь так, как удобно вам
         </p>
       </div>

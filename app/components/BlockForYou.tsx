@@ -11,7 +11,7 @@ export default function BlockForYou() {
             <div className="absolute h-[51.302vw] left-[-7.708vw] top-[-19.844vw] w-[51.510vw]" data-name="image-background 1" data-node-id="3049:69">
               <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgImageBackground1.png" />
             </div>
-            <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[5.833vw] justify-center leading-[0] left-[21.875vw] not-italic text-[2.500vw] text-center text-white top-[2.917vw] translate-x-[-50%] translate-y-[-50%] w-[43.750vw]" data-node-id="3049:70">
+            <div className="absolute flex flex-col font-russo h-[5.833vw] justify-center leading-[0] left-[21.875vw] not-italic text-[2.500vw] text-center text-white top-[2.917vw] translate-x-[-50%] translate-y-[-50%] w-[43.750vw]" data-node-id="3049:70">
               <p className="leading-[normal] whitespace-pre-wrap">Почувствуйте себя Индианой Джонсом: от теории к практике</p>
             </div>
           </div>
@@ -25,7 +25,7 @@ export default function BlockForYou() {
                 <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
               </div>
             </div>
-            <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:75">
+            <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:75">
               <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
             </div>
           </div>
@@ -89,45 +89,45 @@ export default function BlockForYou() {
           </div>
         </div>
         <div className="absolute h-[42.031vw] left-0 top-[4.271vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:77">
-          <div className="absolute flex flex-col font-['Arsenal_SC:Bold',sans-serif] h-[35.052vw] justify-center leading-[0] left-[52.448vw] not-italic text-[1.667vw] text-white top-[24.505vw] translate-y-[-50%] w-[46.927vw]" data-node-id="3049:78">
+          <div className="absolute flex flex-col font-arsenal font-bold h-[35.052vw] justify-center leading-[0] left-[52.448vw] not-italic text-[1.667vw] text-white top-[24.505vw] translate-y-[-50%] w-[46.927vw]" data-node-id="3049:78">
             <ul className="mb-0">
               <li className="leading-[normal] list-disc ms-[2.500vw] whitespace-pre-wrap">
                 <span>{`Учителям: `}</span>
-                <span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">повышение квалификации и новые методики.</span>
+                <span className="font-arsenal not-italic">повышение квалификации и новые методики.</span>
               </li>
             </ul>
             <p className="leading-[normal] mb-0 whitespace-pre-wrap">&nbsp;</p>
             <ul className="list-disc mb-0 whitespace-pre-wrap">
               <li className="leading-[normal] mb-0 ms-[2.500vw]">
-                Школьникам:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">подготовка к ЕГЭ и олимпиадам.</span>
+                Школьникам:<span className="font-arsenal not-italic">подготовка к ЕГЭ и олимпиадам.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] mb-0 ms-[2.500vw]">
-                Студентам:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">актуальные научные методы.</span>
+                Студентам:<span className="font-arsenal not-italic">актуальные научные методы.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] mb-0 ms-[2.500vw]">
-                Для смены профессии:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">профпереподготовка.</span>
+                Для смены профессии:<span className="font-arsenal not-italic">профпереподготовка.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] mb-0 ms-[2.500vw]">
-                Ученым:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">обмен опытом с антропологом.</span>
+                Ученым:<span className="font-arsenal not-italic">обмен опытом с антропологом.</span>
                 <span>
                   <br aria-hidden="true" />
                   <br aria-hidden="true" />
                 </span>
               </li>
               <li className="leading-[normal] ms-[2.500vw]">
-                Всем:<span className="font-['Arsenal_SC:Regular',sans-serif] not-italic">еженедельный интеллектуальный заряд.</span>
+                Всем:<span className="font-arsenal not-italic">еженедельный интеллектуальный заряд.</span>
               </li>
             </ul>
             <p className="leading-[normal] whitespace-pre-wrap">&nbsp;</p>
@@ -135,7 +135,7 @@ export default function BlockForYou() {
           <div className="absolute h-[39.167vw] left-0 top-0 w-[45.365vw]" data-name="school-block" data-node-id="3049:79">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgSchoolBlock.png" />
           </div>
-          <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[5.833vw] justify-center leading-[0] left-[20.286vw] not-italic text-[2.500vw] text-center text-white top-[2.917vw] translate-x-[-50%] translate-y-[-50%] w-[23.594vw]" data-node-id="3049:80">
+          <div className="absolute flex flex-col font-russo h-[5.833vw] justify-center leading-[0] left-[20.286vw] not-italic text-[2.500vw] text-center text-white top-[2.917vw] translate-x-[-50%] translate-y-[-50%] w-[23.594vw]" data-node-id="3049:80">
             <p className="leading-[normal] whitespace-pre-wrap">Этот курс создан для вас</p>
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function BlockForYou() {
           <div className="absolute h-[48.281vw] left-[4.688vw] top-0 w-[51.250vw]" data-name="quote-block-background 1" data-node-id="3049:84">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgQuoteBlockBackground1.png" />
           </div>
-          <div className="absolute font-['Arsenal_SC:Regular',sans-serif] h-[23.698vw] leading-[normal] left-[4.219vw] not-italic text-[1.667vw] text-black top-[12.292vw] w-[43.750vw] whitespace-pre-wrap" data-name="quote-block-text" data-node-id="3049:85">
+          <div className="absolute font-arsenal h-[23.698vw] leading-[normal] left-[4.219vw] not-italic text-[1.667vw] text-black top-[12.292vw] w-[43.750vw] whitespace-pre-wrap" data-name="quote-block-text" data-node-id="3049:85">
             <p className="absolute h-[8.802vw] left-0 top-0 w-[43.750vw]" data-node-id="3049:86">{`"Биология — наука огромная... и вечная проблема... приходится рассказывать про какие-то маленькие кусочки... всего конечно не объять, но рассказать про многое можно, что и будет сделано на курсе`}</p>
             <p className="absolute h-[7.135vw] left-0 top-[9.427vw] w-[43.750vw]" data-node-id="3049:87">
               Курс большой, на год, и это не просто курс лекций, которых и так хватает, а это будет интерактивная вещь, где будет много обратной связи...
@@ -162,7 +162,7 @@ export default function BlockForYou() {
               </div>
             </div>
           </div>
-          <div className="absolute flex flex-col font-['Russo_One:Regular',sans-serif] h-[4.948vw] justify-center leading-[0] left-[0.885vw] not-italic text-[2.500vw] text-black top-[6.224vw] translate-y-[-50%] w-[48.594vw]" data-node-id="3049:90">
+          <div className="absolute flex flex-col font-russo h-[4.948vw] justify-center leading-[0] left-[0.885vw] not-italic text-[2.500vw] text-black top-[6.224vw] translate-y-[-50%] w-[48.594vw]" data-node-id="3049:90">
             <p className="leading-[normal] whitespace-pre-wrap">{`Цитаты Станислава Дробышевского: `}</p>
           </div>
           <div className="absolute h-[3.594vw] left-[13.750vw] top-[38.802vw] w-[25.833vw]" data-name="sign-up-button" data-node-id="3049:91">
@@ -172,7 +172,7 @@ export default function BlockForYou() {
                 <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[0.729vw]" />
               </div>
             </div>
-            <div className="absolute flex flex-col font-['Arsenal_SC:Regular',sans-serif] h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:93">
+            <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center leading-[0] left-[12.917vw] not-italic text-[1.667vw] text-center text-white top-[2.083vw] translate-x-[-50%] translate-y-[-50%] w-[23.646vw]" data-node-id="3049:93">
               <p className="leading-[normal] whitespace-pre-wrap">{`ЗАПИСАТЬСЯ НА КУРС `}</p>
             </div>
           </div>
