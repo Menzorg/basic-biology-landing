@@ -46,11 +46,11 @@ body {
   @keyframes levitate {
     0%, 100% {
       transform: translateY(0) scale(1);
-      filter: drop-shadow(0 5px 5px rgba(0,0,0,0.1));
+      filter: drop-shadow(0 5px 5px rgba(0,0,0,0.3));
     }
     50% {
       transform: translateY(-15%) scale(1.15);
-      filter: drop-shadow(0 25px 15px rgba(0,0,0,0.2));
+      filter: drop-shadow(0 0 20px rgba(255, 0, 0, 1)) drop-shadow(0 0 40px rgba(255, 50, 50, 0.8));
     }
   }
 
