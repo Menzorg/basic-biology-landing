@@ -43,7 +43,7 @@ export default function MobileHero() {
             </div>
           </a>
         </div>
-        <div className="absolute left-[9.600vw] top-[102.400vw] w-[80.800vw] bg-[#d6ffd9] rounded-[4vw] p-[2vw] border-[0.5vw] border-[#44385d] shadow-lg">
+        <div className="absolute left-[9.600vw] top-[95.400vw] w-[80.800vw] bg-[#d6ffd9] rounded-[4vw] p-[2vw] border-[0.5vw] border-[#44385d] shadow-lg">
           <p className="font-russo leading-[normal] not-italic text-[#211044] text-[4.267vw] tracking-[-0.32px] whitespace-pre-wrap text-center" data-node-id="3049:261">
             Кто такой Станислав Дробышевский?
           </p>

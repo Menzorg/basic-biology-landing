@@ -11,7 +11,7 @@ export default function FormatAndContacts() {
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgRectangle2391.png" />
           </div>
         </div>
-        <div className="absolute h-[37.083vw] left-[6.458vw] top-[53.490vw] w-[77.708vw]" data-name="contacts" data-node-id="3049:7">
+        <div className="absolute h-[37.083vw] left-[6.458vw] top-[45.490vw] w-[77.708vw]" data-name="contacts" data-node-id="3049:7">
           <div className="absolute h-[37.500vw] left-[41.146vw] overflow-clip top-[3.438vw] w-[52.083vw]" data-name="contacts-background" data-node-id="3049:8">
             <img alt="" className="block max-w-none size-full" height="720" src="/images/desktop/imgContactsBackground.png" width="1000" />
           </div>

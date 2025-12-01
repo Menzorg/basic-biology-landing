@@ -132,16 +132,20 @@ export default function CourseProgram() {
               <img alt="" className="block max-w-none size-full" src="/images/desktop/imgNavigation.svg" />
               {/* Prev Button */}
               <div 
-                className="absolute left-0 top-0 w-[5vw] h-full cursor-pointer z-10"
+                className="absolute left-[1vw] top-1/2 -translate-y-1/2 w-[3vw] h-[3vw] cursor-pointer z-10 hover:scale-110 active:scale-95 transition-transform flex items-center justify-center"
                 onClick={handlePrev}
                 title="Предыдущий модуль"
-              />
+              >
+                <div className="w-[2vw] h-[2vw] rounded-full bg-white/30 backdrop-blur-sm shadow-sm hover:bg-white/50 transition-colors" />
+              </div>
               {/* Next Button */}
               <div 
-                className="absolute right-0 top-0 w-[5vw] h-full cursor-pointer z-10"
+                className="absolute right-[1vw] top-1/2 -translate-y-1/2 w-[3vw] h-[3vw] cursor-pointer z-10 hover:scale-110 active:scale-95 transition-transform flex items-center justify-center"
                 onClick={handleNext}
                 title="Следующий модуль"
-              />
+              >
+                <div className="w-[2vw] h-[2vw] rounded-full bg-white/30 backdrop-blur-sm shadow-sm hover:bg-white/50 transition-colors" />
+              </div>
             </div>
           </div>
         </div>
