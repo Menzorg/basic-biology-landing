@@ -38,7 +38,7 @@ export default function ComfortLearn() {
                 <span className="leading-[normal] text-[1.667vw]">{`Сертификат (за отдельные лекции) `}</span>
               </li>
               <li className="mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))]">
-                <span className="leading-[normal] text-[1.667vw]">{`Удостоверение повышения квалификации (за модуль) `}</span>
+                <span className="leading-[normal] text-[1.667vw]">{`Удостоверение повышения квалификации (за семестр) `}</span>
               </li>
               <li className="ms-[calc(1.5*1*var(--list-marker-font-size,0))]">
                 <span className="leading-[normal] text-[1.667vw]">Диплом профпереподготовки (за весь курс + защиту ВКР)</span>
@@ -67,7 +67,7 @@ export default function ComfortLearn() {
               </div>
             </div>
             <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[34.583vw]" data-node-id="3049:51">
-              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ СЕМЕСТР</p>
             </div>
           </a>
         </div>

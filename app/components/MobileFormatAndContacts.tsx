@@ -17,7 +17,7 @@ export default function MobileFormatAndContacts() {
         <div className="absolute flex flex-col font-russo h-[13.333vw] justify-center leading-[0] left-[12.533vw] not-italic text-[4.267vw] text-white top-[20.000vw] translate-y-[-50%] w-[61.333vw]" data-node-id="3049:156">
           <p className="leading-[normal] whitespace-pre-wrap">Очные лекции (в Москве)</p>
         </div>
-        <div className="absolute flex flex-col font-arsenal h-[43.200vw] justify-center leading-[0] left-[10.667vw] not-italic text-[0vw] text-white top-[43.200vw] translate-y-[-50%] w-[79.733vw]" data-node-id="3049:157">
+        <div className="absolute flex flex-col font-arsenal h-[43.200vw] justify-center leading-[0] left-[15.667vw] not-italic text-[0vw] text-white top-[43.200vw] translate-y-[-50%] w-[79.733vw] pr-[4vw]" data-node-id="3049:157">
           <ul className="list-disc whitespace-pre-wrap">
             <li className="leading-[normal] mb-0 ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw]">
               <span className="font-arsenal font-bold not-italic">Разовая лекция:</span>
@@ -47,7 +47,7 @@ export default function MobileFormatAndContacts() {
         <div className="absolute flex flex-col font-russo h-[12.800vw] justify-center leading-[0] left-[12.533vw] not-italic text-[4.267vw] text-white top-[85.867vw] translate-y-[-50%] w-[68.267vw]" data-node-id="3049:158">
           <p className="leading-[normal] whitespace-pre-wrap">Прямые трансляции (Онлайн)</p>
         </div>
-        <div className="absolute flex flex-col font-arsenal h-[44.267vw] justify-center leading-[0] left-[12.533vw] not-italic text-[0vw] text-white top-[109.067vw] translate-y-[-50%] w-[76.000vw]" data-node-id="3049:159">
+        <div className="absolute flex flex-col font-arsenal h-[44.267vw] justify-center leading-[0] left-[15.533vw] not-italic text-[0vw] text-white top-[109.067vw] translate-y-[-50%] w-[76.000vw] pr-[4vw]" data-node-id="3049:159">
           <ul className="mb-0">
             <li className="leading-[normal] list-disc ms-[calc(1.5*1*var(--list-marker-font-size,0))] text-[3.733vw] whitespace-pre-wrap">
               <span className="font-arsenal font-bold not-italic">Разовая трансляция:</span>
@@ -77,7 +77,7 @@ export default function MobileFormatAndContacts() {
           </ul>
         </div>
         <div className="absolute flex flex-col font-russo h-[17.067vw] justify-center leading-[0] left-[7.200vw] not-italic text-[6.400vw] text-black top-[146.933vw] tracking-[-0.48px] translate-y-[-50%] w-[85.867vw]" data-node-id="3049:160">
-          <p className="leading-[89.95500183105469%] whitespace-pre-wrap">Хватит сомневаться. Пора действовать.</p>
+          <p className="leading-[89.95500183105469%] whitespace-pre-wrap">С нами ты идешь туда куда надо ТЕБЕ</p>
         </div>
         <div className="absolute flex flex-col font-russo h-[7.467vw] justify-center leading-[0] left-[6.933vw] not-italic text-[4.267vw] text-black top-[160.000vw] translate-y-[-50%] w-[50.933vw]" data-node-id="3049:161">
           <p className="leading-[normal] whitespace-pre-wrap">Игорь Власенко</p>
@@ -115,7 +115,7 @@ export default function MobileFormatAndContacts() {
               <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
             </div>
             <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]" data-node-id="3049:166">
-              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ СЕМЕСТР</p>
             </div>
           </a>
         </div>

@@ -48,13 +48,13 @@ export default function FormatAndContacts() {
                   </div>
                 </div>
                 <div className="absolute flex flex-col font-arsenal h-[1.979vw] justify-center items-center leading-[0] left-[50%] not-italic text-[1.667vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[34.583vw]" data-node-id="3049:15">
-                  <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ МОДУЛЬ</p>
+                  <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС ИЛИ СЕМЕСТР</p>
                 </div>
               </a>
             </div>
           </div>
           <div className="absolute flex flex-col font-russo h-[6.250vw] justify-center leading-[0] left-[9.323vw] not-italic text-[3.333vw] text-black top-[3.125vw] tracking-[-0.067vw] translate-y-[-50%] w-[68.385vw]" data-node-id="3049:16">
-            <p className="leading-[89.95500183105469%] whitespace-pre-wrap">Хватит сомневаться. Пора действовать.</p>
+            <p className="leading-[89.95500183105469%] whitespace-pre-wrap">С нами ты идешь туда куда надо ТЕБЕ</p>
           </div>
         </div>
         <div className="absolute h-[72.083vw] left-0 top-[2.688vw] w-[99.948vw]" data-name="choose-your-format" data-node-id="3049:17">

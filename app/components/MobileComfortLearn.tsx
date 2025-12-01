@@ -75,7 +75,7 @@ export default function MobileComfortLearn() {
                 <span className="leading-[normal]">{`Сертификат (за отдельные лекции) `}</span>
               </li>
               <li className="mb-0 ms-[5.600vw]">
-                <span className="leading-[normal]">{`Удостоверение повышения квалификации (за модуль) `}</span>
+                <span className="leading-[normal]">{`Удостоверение повышения квалификации (за семестр) `}</span>
               </li>
               <li className="ms-[5.600vw]">
                 <span className="leading-[normal]">Диплом профпереподготовки (за весь курс + защиту ВКР)</span>

@@ -108,7 +108,7 @@ export default function MobileCourseProgram() {
                     <span className="font-arsenal not-italic">{slide.description}</span>
                 </p>
                 </div>
-                <div className="absolute flex flex-col font-arsenal font-bold h-[98.400vw] justify-center leading-[0] left-[11.200vw] not-italic text-[0vw] text-white top-[114.000vw] translate-y-[-50%] w-[79.200vw]" data-node-id="3049:174">
+                <div className="absolute flex flex-col font-arsenal font-bold h-[98.400vw] justify-center leading-[0] left-[15.200vw] not-italic text-[0vw] text-white top-[114.000vw] translate-y-[-50%] w-[79.200vw]" data-node-id="3049:174">
                 {slide.lectures.map((lecture, index) => (
                     <React.Fragment key={index}>
                         <ul className="mb-0">
