@@ -3,10 +3,10 @@ import React from 'react';
 export default function BlockForYou() {
   return (
     <div className="absolute h-[101.875vw] left-px top-[200.833vw] w-[100.000vw]" data-name="block-for-you" data-node-id="3049:65">
-        <div className="absolute h-[101.927vw] left-0 top-[-1px] w-[100.000vw]" data-name="background" data-node-id="3049:66">
+        <div className="absolute h-[101.927vw] left-0 top-[-1px] w-[100.000vw] z-50" data-name="background" data-node-id="3049:66">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgBackground2.png" />
         </div>
-        <div className="absolute h-[40.260vw] left-[5.208vw] top-[54.427vw] w-[94.792vw]" data-name="bottom-content" data-node-id="3049:67">
+        <div className="absolute h-[40.260vw] left-[5.208vw] top-[54.427vw] w-[94.792vw] z-50" data-name="bottom-content" data-node-id="3049:67">
           <div className="absolute h-[5.833vw] left-[50.990vw] top-[3.333vw] w-[43.802vw]" data-name="indiana-jones-block" data-node-id="3049:68">
             <div className="absolute h-[51.302vw] left-[-7.708vw] top-[-19.844vw] w-[51.510vw]" data-name="image-background 1" data-node-id="3049:69">
               <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgImageBackground1.png" />
@@ -90,7 +90,7 @@ export default function BlockForYou() {
             </ul>
           </div>
         </div>
-        <div className="absolute h-[42.031vw] left-0 top-[4.271vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:77">
+        <div className="absolute h-[42.031vw] left-0 top-[4.271vw] w-[100.000vw] z-50" data-name="top-content" data-node-id="3049:77">
           <div className="absolute flex flex-col font-arsenal font-bold h-[35.052vw] justify-center leading-[0] left-[52.448vw] not-italic text-[1.667vw] text-white top-[24.505vw] translate-y-[-50%] w-[46.927vw]" data-node-id="3049:78">
             <ul className="mb-0">
               <li className="leading-[normal] list-disc ms-[2.500vw] whitespace-pre-wrap">
@@ -142,13 +142,13 @@ export default function BlockForYou() {
           </div>
         </div>
         <div className="absolute h-[48.281vw] left-[44.063vw] top-[-38.094vw] w-[55.937vw]" data-name="quote-block" data-node-id="3049:81">
-          <div className="absolute h-[31.198vw] left-[-43.125vw] overflow-clip top-[8.333vw] w-[44.010vw]" data-name="quote-block-image-background 1" data-node-id="3049:82">
+          <div className="absolute h-[31.198vw] left-[-43.125vw] overflow-clip top-[8.333vw] w-[44.010vw] z-10" data-name="quote-block-image-background 1" data-node-id="3049:82">
             <img alt="" className="block max-w-none size-full" height="599" src="/images/desktop/imgQuoteBlockImageBackground1.png" width="845" />
           </div>
-          <div className="absolute h-[48.281vw] left-[4.688vw] top-0 w-[51.250vw]" data-name="quote-block-background 1" data-node-id="3049:84">
+          <div className="absolute h-[48.281vw] left-[4.688vw] top-0 w-[51.250vw] z-0" data-name="quote-block-background 1" data-node-id="3049:84">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/desktop/imgQuoteBlockBackground1.png" />
           </div>
-          <div className="absolute font-arsenal h-[23.698vw] leading-[normal] left-[4.219vw] not-italic text-[1.667vw] text-black top-[12.292vw] w-[43.750vw] whitespace-pre-wrap" data-name="quote-block-text" data-node-id="3049:85">
+          <div className="absolute font-arsenal h-[23.698vw] leading-[normal] left-[4.219vw] not-italic text-[1.667vw] text-black top-[12.292vw] w-[43.750vw] whitespace-pre-wrap z-20" data-name="quote-block-text" data-node-id="3049:85">
             <p className="absolute h-[8.802vw] left-0 top-0 w-[43.750vw]" data-node-id="3049:86">{`"Биология — наука огромная... и вечная проблема... приходится рассказывать про какие-то маленькие кусочки... всего конечно не объять, но рассказать про многое можно, что и будет сделано на курсе`}</p>
             <p className="absolute h-[7.135vw] left-0 top-[9.427vw] w-[43.750vw]" data-node-id="3049:87">
               Курс большой, на год, и это не просто курс лекций, которых и так хватает, а это будет интерактивная вещь, где будет много обратной связи...
