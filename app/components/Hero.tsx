@@ -50,9 +50,11 @@ export default function Hero() {
           <img alt="" className="block max-w-none size-full" height="776" src="/images/desktop/imgImageBackground.png" width="887" />
         </div>
         <div className="absolute h-[23.594vw] left-0 top-[38.750vw] w-[29.688vw]" data-name="computer-youtube" data-node-id="3049:145">
-          <p className="absolute font-['Druk_Wide_Cy_Web:Bold',sans-serif] h-[5.365vw] leading-[normal] left-[0.365vw] not-italic text-[#211044] text-[1.875vw] top-0 w-[35.156vw] whitespace-pre-wrap" data-node-id="3049:146">
-            Кто такой Станислав Дробышевский?
-          </p>
+          <div className="absolute left-[0.365vw] top-0 w-[35.156vw] bg-[#d6ffd9] rounded-[2vw] p-[1vw] border-[0.2vw] border-[#44385d] shadow-lg">
+            <p className="font-['Druk_Wide_Cy_Web:Bold',sans-serif] leading-[normal] not-italic text-[#211044] text-[1.5vw] whitespace-pre-wrap text-center" data-node-id="3049:146">
+              Кто такой Станислав Дробышевский?
+            </p>
+          </div>
           <a 
             href="https://www.youtube.com/watch?v=Mu0-RAt5Zpc"
             target="_blank"

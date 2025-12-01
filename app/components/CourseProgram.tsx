@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const slides = [
   {
@@ -33,6 +33,8 @@ export default function CourseProgram() {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
+  const [isHovered, setIsHovered] = useState(false);
+
   const handlePrev = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
@@ -40,6 +42,15 @@ export default function CourseProgram() {
   const handleNext = () => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
+
+  useEffect(() => {
+    if (isHovered) return;
+    const timer = setInterval(() => {
+      handleNext();
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, [isHovered]);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);
@@ -79,6 +90,8 @@ export default function CourseProgram() {
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
         >
           <div className="absolute h-[50.208vw] left-0 top-0 w-[87.031vw]" data-name="background" data-node-id="3049:30">
             <div className="absolute h-[50.208vw] left-0 rounded-[4.844vw] top-0 w-[87.031vw]" data-name="background-image" data-node-id="3049:31">

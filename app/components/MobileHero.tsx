@@ -43,9 +43,11 @@ export default function MobileHero() {
             </div>
           </a>
         </div>
-        <p className="absolute font-russo h-[12.267vw] leading-[89.95500183105469%] left-[9.600vw] not-italic text-[#211044] text-[4.267vw] top-[102.400vw] tracking-[-0.32px] w-[80.800vw] whitespace-pre-wrap" data-node-id="3049:261">
-          Кто такой Станислав Дробышевский?
-        </p>
+        <div className="absolute left-[9.600vw] top-[102.400vw] w-[80.800vw] bg-[#d6ffd9] rounded-[4vw] p-[2vw] border-[0.5vw] border-[#44385d] shadow-lg">
+          <p className="font-russo leading-[normal] not-italic text-[#211044] text-[4.267vw] tracking-[-0.32px] whitespace-pre-wrap text-center" data-node-id="3049:261">
+            Кто такой Станислав Дробышевский?
+          </p>
+        </div>
         <div className="absolute h-[73.600vw] left-0 top-[137.333vw] w-[98.400vw]" data-name="sitting-scientist" data-node-id="3049:262">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgSittingScientist.png" />
         </div>

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const slides = [
   {
@@ -40,6 +40,14 @@ export default function MobileCourseProgram() {
   const handleNext = () => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      handleNext();
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);

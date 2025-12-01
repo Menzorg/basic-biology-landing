@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const slides = [
   {
@@ -29,6 +29,8 @@ export default function MobileWhyBlock() {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
+  const [isHovered, setIsHovered] = useState(false);
+
   const handlePrev = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
@@ -36,6 +38,15 @@ export default function MobileWhyBlock() {
   const handleNext = () => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
+
+  useEffect(() => {
+    if (isHovered) return;
+    const timer = setInterval(() => {
+      handleNext();
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, [isHovered]);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);
@@ -125,6 +136,8 @@ export default function MobileWhyBlock() {
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
         >
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background-image" data-node-id="3049:242">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
