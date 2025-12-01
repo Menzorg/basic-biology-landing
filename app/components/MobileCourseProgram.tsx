@@ -92,6 +92,10 @@ export default function MobileCourseProgram() {
         >
             <div className="absolute h-[126.133vw] left-[6.933vw] rounded-[10.933vw] top-[37.067vw] w-[86.400vw]" data-node-id="3049:170">
               <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
+              <div 
+                className="absolute inset-0 rounded-[10.933vw]" 
+                style={{ background: 'linear-gradient(90deg, #3F5E4F 33%, rgba(143, 119, 195, 0.52) 100%)' }} 
+              />
             </div>
             <div className="absolute h-[126.133vw] left-[6.933vw] rounded-[10.933vw] top-[37.067vw] w-[86.400vw]" data-node-id="3049:171" />
             <div key={currentSlide} className="animate-fade-in absolute inset-0">

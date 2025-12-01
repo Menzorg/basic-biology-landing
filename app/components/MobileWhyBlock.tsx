@@ -147,18 +147,18 @@ export default function MobileWhyBlock() {
             />
           </div>
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background" data-node-id="3049:243" />
-          <div key={currentSlide} className="animate-fade-in absolute inset-0">
-            <ul className="absolute block font-arsenal h-[55.733vw] leading-[0] left-[6.667vw] not-italic text-[3.733vw] text-white top-[20.800vw] w-[73.067vw]" data-node-id="3049:244">
+          <div key={currentSlide} className="animate-fade-in absolute inset-0 flex flex-col">
+            <p className="font-russo text-[4.267vw] text-white leading-[normal] whitespace-pre-wrap mt-[6.667vw] ml-[7.200vw] w-[71.733vw] shrink-0 z-10">
+                {slide.title}
+            </p>
+            <ul className="block font-arsenal leading-[0] not-italic text-[3.733vw] text-white mt-[4vw] ml-[6.667vw] w-[73.067vw] shrink-0 z-10">
                 <li className="ms-[5.600vw] whitespace-pre-wrap">
                 <span className="leading-[normal]">{slide.text}</span>
                 </li>
             </ul>
-            <div className="absolute left-[13.867vw] size-[58.400vw] top-[68.800vw]" data-name="image" data-node-id="3049:245">
-                <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full object-contain" src={slide.image} />
+            <div className="relative flex-1 w-[58.400vw] ml-[13.867vw] min-h-0 mt-[4vw] mb-[6vw] z-0">
+                <img alt="" className="absolute inset-0 size-full object-contain" src={slide.image} />
             </div>
-            <p className="absolute font-russo h-[10.133vw] leading-[normal] left-[7.200vw] not-italic text-[4.267vw] text-white top-[6.667vw] w-[71.733vw] whitespace-pre-wrap" data-node-id="3049:246">
-                {slide.title}
-            </p>
           </div>
         </div>
         <p className="absolute font-russo h-[25.867vw] leading-[normal] left-[50.000vw] not-italic text-[4.267vw] text-black text-center top-0 translate-x-[-50%] w-[100.000vw] whitespace-pre-wrap" data-node-id="3049:247">{`Почему этот курс закроет все ваши "но"?`}</p>
