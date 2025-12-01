@@ -141,10 +141,14 @@ export default function MobileWhyBlock() {
         >
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background-image" data-node-id="3049:242">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10.933vw] size-full" src="/images/mobile/imgRectangle253.png" />
+            <div 
+              className="absolute inset-0 rounded-[10.933vw]" 
+              style={{ background: 'linear-gradient(90deg, #3F5E4F 33%, rgba(143, 119, 195, 0.52) 100%)' }} 
+            />
           </div>
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background" data-node-id="3049:243" />
           <div key={currentSlide} className="animate-fade-in absolute inset-0">
-            <ul className="absolute block font-arsenal h-[55.733vw] leading-[0] left-[6.667vw] not-italic text-[3.733vw] text-white top-[20.800vw] w-[86vw]" data-node-id="3049:244">
+            <ul className="absolute block font-arsenal h-[55.733vw] leading-[0] left-[6.667vw] not-italic text-[3.733vw] text-white top-[20.800vw] w-[73.067vw]" data-node-id="3049:244">
                 <li className="ms-[5.600vw] whitespace-pre-wrap">
                 <span className="leading-[normal]">{slide.text}</span>
                 </li>
