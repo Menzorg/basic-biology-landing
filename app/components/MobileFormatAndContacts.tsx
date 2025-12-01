@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MobileFormatAndContacts() {
   return (
-    <div className="absolute h-[287.200vw] left-0 top-[1340.800vw] w-[100.000vw]" data-name="format-and-contacts" data-node-id="3049:150">
+    <div className="relative h-[287.200vw] w-full" data-name="format-and-contacts" data-node-id="3049:150">
         <div className="absolute h-[96.000vw] left-0 top-[68.267vw] w-[68.800vw]" data-name="Rectangle 250 (4) 1" data-node-id="3049:151">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgRectangle25041.png" />
         </div>

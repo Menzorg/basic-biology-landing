@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MobileHero() {
   return (
-    <div className="absolute h-[277.067vw] left-0 top-0 w-[100.000vw]" data-name="top-block" data-node-id="3049:248">
+    <div className="relative h-[277.067vw] w-full" data-name="top-block" data-node-id="3049:248">
         <div className="absolute h-[95.467vw] left-0 top-[132.533vw] w-[98.400vw]" data-name="background-mark-2" data-node-id="3049:249">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark5.png" />
         </div>

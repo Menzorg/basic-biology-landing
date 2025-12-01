@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MobileBlockForYou() {
   return (
-    <div className="absolute h-[410.667vw] left-0 top-[587.200vw] w-[100.000vw]" data-name="block-for-you" data-node-id="3049:199">
+    <div className="relative h-[410.667vw] w-full" data-name="block-for-you" data-node-id="3049:199">
         <div className="absolute h-[100.800vw] left-[9.067vw] top-[13.067vw] w-[90.933vw]" data-name="background-mark-2" data-node-id="3049:200">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark2.png" />
         </div>

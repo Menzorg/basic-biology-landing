@@ -26,13 +26,13 @@ export default function Home() {
       </div>
 
       {/* Mobile Version */}
-      <div className="block md:hidden relative w-[100vw] h-[1628vw] mx-auto overflow-hidden bg-[#d6ffd9]">
-         <MobileFormatAndContacts />
-         <MobileCourseProgram />
-         <MobileComfortLearn />
-         <MobileBlockForYou />
-         <MobileWhyBlock />
+      <div className="block md:hidden flex flex-col relative w-full h-auto mx-auto overflow-hidden bg-[#d6ffd9]">
          <MobileHero />
+         <MobileWhyBlock />
+         <MobileBlockForYou />
+         <MobileComfortLearn />
+         <MobileCourseProgram />
+         <MobileFormatAndContacts />
       </div>
     </main>
   );
