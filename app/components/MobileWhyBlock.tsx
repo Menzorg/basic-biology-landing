@@ -75,8 +75,19 @@ export default function MobileWhyBlock() {
   const slide = slides[currentSlide];
 
   return (
-    <div className="relative h-[307.733vw] w-full" data-name="why-block" data-node-id="3049:219">
-        <div className="absolute h-[165.867vw] left-0 top-[141.867vw] w-[100.000vw]" data-name="description" data-node-id="3049:220">
+    <div className="relative h-[327.733vw] w-full" data-name="why-block" data-node-id="3049:219">
+        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[145vw] w-[86.400vw] z-20">
+          <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+            <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
+              <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+              <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+            </div>
+            <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
+              <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС</p>
+            </div>
+          </a>
+        </div>
+        <div className="absolute h-[165.867vw] left-0 top-[161.867vw] w-[100.000vw]" data-name="description" data-node-id="3049:220">
           <div className="absolute h-[85.600vw] left-0 top-[80.267vw] w-[100.000vw]" data-name="background-mark-2" data-node-id="3049:221">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark4.png" />
           </div>

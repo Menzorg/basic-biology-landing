@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function MobileBlockForYou() {
   return (
-    <div className="relative h-[410.667vw] w-full" data-name="block-for-you" data-node-id="3049:199">
+    <div className="relative h-[440.667vw] w-full" data-name="block-for-you" data-node-id="3049:199">
         <div className="absolute h-[100.800vw] left-[9.067vw] top-[13.067vw] w-[90.933vw]" data-name="background-mark-2" data-node-id="3049:200">
           <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark2.png" />
         </div>
-        <div className="absolute h-[221.867vw] left-0 top-[188.800vw] w-[100.000vw]" data-name="bottom-content" data-node-id="3049:201">
+        <div className="absolute h-[221.867vw] left-0 top-[208.800vw] w-[100.000vw]" data-name="bottom-content" data-node-id="3049:201">
           <div className="absolute h-[221.867vw] left-0 top-0 w-[100.000vw]" data-name="background-mark-1" data-node-id="3049:202">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark1.png" />
           </div>
@@ -78,7 +78,7 @@ export default function MobileBlockForYou() {
             <p className="leading-[normal] whitespace-pre-wrap">Почувствуйте себя Индианой Джонсом: от теории к практике</p>
           </div>
         </div>
-        <div className="absolute h-[156.533vw] left-0 top-[91.733vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:207">
+        <div className="absolute h-[156.533vw] left-0 top-[111.733vw] w-[100.000vw]" data-name="top-content" data-node-id="3049:207">
           <div className="absolute h-[155.733vw] left-0 top-0 w-[100.000vw]" data-name="background-mark" data-node-id="3049:208">
             <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src="/images/mobile/imgBackgroundMark3.png" />
           </div>
@@ -167,6 +167,32 @@ export default function MobileBlockForYou() {
             <p className="leading-[normal] whitespace-pre-wrap">{`Прямая речь Станислава Дробышевского: `}</p>
           </div>
         </div>
-      </div>
+
+        {/* Button 1: Under Quotes */}
+        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[96vw] w-[86.400vw] z-20">
+            <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+            <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
+                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+                <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+            </div>
+            <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
+                <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС</p>
+            </div>
+            </a>
+        </div>
+
+        {/* Button 2: Under Indiana Jones */}
+        <div className="absolute h-[11.733vw] left-[6.933vw] rounded-[3.733vw] top-[435vw] w-[86.400vw] z-20">
+            <a href="#" className="group block relative h-full w-full cursor-pointer transition-transform hover:scale-105 active:scale-95">
+            <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[3.733vw]">
+                <img alt="" className="absolute max-w-none object-50%-50% object-cover rounded-[3.733vw] size-full" src="/images/mobile/imgRectangle256.png" />
+                <div className="absolute bg-[rgba(79,199,87,0.86)] inset-0 rounded-[3.733vw] group-hover:bg-[rgba(79,199,87,0.95)] transition-colors" />
+            </div>
+            <div className="absolute flex flex-col font-arsenal h-[9.067vw] justify-center items-center leading-[0] left-[50%] not-italic text-[3.733vw] text-center text-white top-[50%] translate-x-[-50%] translate-y-[-50%] w-[67.467vw]">
+                <p className="leading-[normal] whitespace-pre-wrap">ЗАПИСАТЬСЯ НА КУРС</p>
+            </div>
+            </a>
+        </div>
+    </div>
   );
 }
