@@ -24,6 +24,12 @@ const slides = [
   }
 ];
 
+// Image constants for the description block
+const imgDescriptionBackground1 = "/images/desktop/imgDescriptionBackground1.png";
+const imgSpanner = "/images/desktop/imgSpanner.svg";
+const imgMessageIcon = "/images/desktop/imgMessageIcon.svg";
+const imgFileIcon = "/images/desktop/imgFileIcon.svg";
+
 export default function WhyBlock() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [touchStart, setTouchStart] = useState(0);
@@ -65,6 +71,55 @@ export default function WhyBlock() {
 
   return (
     <div className="absolute h-[74.740vw] left-0 top-[90.052vw] w-[100.000vw]" data-name="why-block" data-node-id="3049:94">
+        <div className="absolute h-[33.177vw] left-0 top-[41.563vw] w-[100.000vw]" data-name="description" data-node-id="3049:95">
+          <div className="absolute h-[30.677vw] left-0 top-[4.635vw] w-[100.000vw]" data-name="description-background 1" data-node-id="3049:96">
+            <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgDescriptionBackground1} />
+          </div>
+          <div className="absolute h-[19.375vw] left-[49.792vw] top-[8.229vw] w-[39.271vw]" data-name="descritpion-secondary" data-node-id="3049:97">
+            <div className="absolute h-[4.375vw] left-0 top-[15.000vw] w-[37.135vw]" data-name="paragraph-3" data-node-id="3049:98">
+              <div className="absolute bottom-[22.62%] left-0 right-[93.41%] top-[22.62%]" data-name="spanner" data-node-id="3049:99">
+                <div className="absolute inset-[-7.61%_-7.45%]">
+                  <img alt="" className="block max-w-none size-full" src={imgSpanner} />
+                </div>
+              </div>
+              <div className="absolute flex flex-col font-arsenal h-[4.375vw] justify-center leading-[0] left-[4.844vw] not-italic text-[1.667vw] text-black top-[2.188vw] translate-y-[-50%] w-[32.292vw]" data-node-id="3049:100">
+                <p className="leading-[normal] whitespace-pre-wrap">Практикумы, которые учат анализировать, а не зубрить.</p>
+              </div>
+            </div>
+            <div className="absolute h-[5.156vw] left-0 top-[8.698vw] w-[38.333vw]" data-name="paragraph-2" data-node-id="3049:101">
+              <div className="absolute bottom-[26.26%] left-0 right-[93.61%] top-[27.27%]" data-name="message-icon" data-node-id="3049:102">
+                <div className="absolute inset-[-7.61%_-7.45%]">
+                  <img alt="" className="block max-w-none size-full" src={imgMessageIcon} />
+                </div>
+              </div>
+              <div className="absolute flex flex-col font-arsenal h-[5.156vw] justify-center leading-[0] left-[4.844vw] not-italic text-[1.667vw] text-black top-[2.578vw] translate-y-[-50%] w-[33.490vw]" data-node-id="3049:103">
+                <p className="leading-[normal] whitespace-pre-wrap">{`Тесты, обсуждения и мгновенная обратная связь в течение всего курса. `}</p>
+              </div>
+            </div>
+            <div className="absolute h-[7.083vw] left-0 top-0 w-[39.271vw]" data-name="paragraph-1" data-node-id="3049:104">
+              <div className="absolute h-[2.969vw] left-0 top-[2.083vw] w-[2.448vw]" data-name="file-icon" data-node-id="3049:105">
+                <div className="absolute inset-[-6.14%_-7.45%]">
+                  <img alt="" className="block max-w-none size-full" src={imgFileIcon} />
+                </div>
+              </div>
+              <div className="absolute flex flex-col font-arsenal h-[7.083vw] justify-center leading-[0] left-[4.844vw] not-italic text-[1.667vw] text-black top-[3.542vw] translate-y-[-50%] w-[34.427vw]" data-node-id="3049:110">
+                <p className="leading-[normal] whitespace-pre-wrap">Каждое занятие начинается с опроса, чтобы знания не ложились мертвым грузом, а сразу начинали работать.</p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex flex-col font-arsenal h-[19.896vw] justify-center leading-[0] left-[10.781vw] not-italic text-[0vw] text-black top-[18.021vw] translate-y-[-50%] w-[34.583vw] whitespace-pre-wrap" data-node-id="3049:111">
+            <p className="leading-[normal] mb-0 text-[1.667vw]">{`Это не тот предмет, который вы учили в школе или университете. Станислав Дробышевский ломает рамки между дисциплинами. Вы увидите, как законы экологии влияют на генетику, а анатомия диктует эволюцию. `}</p>
+            <p className="leading-[normal] mb-0 text-[1.667vw]">&nbsp;</p>
+            <p className="leading-[normal] text-[1.667vw]">
+              <span>{`Вполне вероятно, что после этого `}</span>
+              <span className="font-arsenal not-italic">курса</span>
+              <span>{` вы и на другие науки начнете смотреть по-другому — системно.`}</span>
+            </p>
+          </div>
+          <div className="absolute flex flex-col font-russo h-[6.510vw] justify-center leading-[0] left-[50.521vw] not-italic text-[2.500vw] text-black text-center top-[5.339vw] translate-x-[-50%] translate-y-[-50%] w-[51.875vw]" data-node-id="3049:112">
+            <p className="leading-[normal] whitespace-pre-wrap">Это не монолог лектора. Это диалог.</p>
+          </div>
+        </div>
         <div 
           className="absolute h-[35.677vw] left-[6.458vw] top-[7.083vw] w-[87.031vw]" 
           data-name="why-block-slider" 
@@ -78,7 +133,7 @@ export default function WhyBlock() {
           </div>
           <div className="absolute bg-gradient-to-r from-[#3f5e4f] from-[32.919%] h-[35.677vw] left-0 rounded-[4.844vw] to-[99.072%] to-[rgba(143,119,195,0.52)] top-0 w-[87.031vw]" data-name="slider-background" data-node-id="3049:115" />
           <div key={currentSlide} className="animate-fade-in absolute inset-0">
-            <ul className="absolute block font-arsenal h-[17.396vw] leading-[0] left-[5.052vw] not-italic text-[1.667vw] text-white top-[10.208vw] w-[40.729vw]" data-node-id="3049:116">
+            <ul className="absolute block font-arsenal h-[17.396vw] leading-[0] left-[5.052vw] not-italic text-[1.667vw] text-white top-[10.208vw] w-[46.5vw]" data-node-id="3049:116">
                 <li className="ms-[2.500vw] whitespace-pre-wrap">
                 <span className="leading-[normal]">{slide.text}</span>
                 </li>

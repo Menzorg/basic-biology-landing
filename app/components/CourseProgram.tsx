@@ -84,7 +84,7 @@ export default function CourseProgram() {
             <div className="absolute h-[50.208vw] left-0 rounded-[4.844vw] top-0 w-[87.031vw]" data-name="background-image" data-node-id="3049:31">
               <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4.844vw] size-full" src="/images/desktop/imgBackgroundImage.png" />
             </div>
-            <div className="absolute h-[50.208vw] left-0 rounded-[4.844vw] top-0 w-[87.031vw]" data-name="background" data-node-id="3049:32" />
+            <div className="absolute bg-gradient-to-r from-[#3f5e4f] from-[32.919%] h-[50.208vw] left-0 rounded-[4.844vw] to-[99.072%] to-[rgba(143,119,195,0.52)] top-0 w-[87.031vw]" data-name="background" data-node-id="3049:32" />
           </div>
           <div className="absolute h-[46.042vw] leading-[0] left-[7.240vw] not-italic text-white top-[1.979vw] w-[54.479vw]" data-name="content" data-node-id="3049:33">
             <div key={currentSlide} className="animate-fade-in absolute inset-0">

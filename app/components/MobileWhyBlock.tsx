@@ -131,7 +131,7 @@ export default function MobileWhyBlock() {
           </div>
           <div className="absolute h-[130.400vw] left-0 rounded-[10.933vw] top-0 w-[86.400vw]" data-name="background" data-node-id="3049:243" />
           <div key={currentSlide} className="animate-fade-in absolute inset-0">
-            <ul className="absolute block font-arsenal h-[55.733vw] leading-[0] left-[6.667vw] not-italic text-[3.733vw] text-white top-[20.800vw] w-[72.800vw]" data-node-id="3049:244">
+            <ul className="absolute block font-arsenal h-[55.733vw] leading-[0] left-[6.667vw] not-italic text-[3.733vw] text-white top-[20.800vw] w-[86vw]" data-node-id="3049:244">
                 <li className="ms-[5.600vw] whitespace-pre-wrap">
                 <span className="leading-[normal]">{slide.text}</span>
                 </li>
