@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-[#d6ffd9]">
       {/* Desktop Version */}
-      <div className="hidden md:block relative w-[100vw] h-[483.177vw] mx-auto overflow-hidden bg-[#d6ffd9]">
+      <div className="hidden md:block relative w-[100vw] h-[490vw] mx-auto overflow-hidden bg-[#d6ffd9]">
          <FormatAndContacts />
          <CourseProgram />
          <ComfortLearn />

@@ -57,7 +57,7 @@ export default function FormatAndContacts() {
             <p className="leading-[89.95500183105469%] whitespace-pre-wrap">Хватит сомневаться. Пора действовать.</p>
           </div>
         </div>
-        <div className="absolute h-[72.083vw] left-0 top-[14.688vw] w-[99.948vw]" data-name="choose-your-format" data-node-id="3049:17">
+        <div className="absolute h-[72.083vw] left-0 top-[2.688vw] w-[99.948vw]" data-name="choose-your-format" data-node-id="3049:17">
           <div className="absolute h-[28.698vw] left-[53.750vw] top-[10.000vw] w-[39.792vw]" data-name="right-card" data-node-id="3049:18">
             <div className="absolute bg-[#3f5e4e] h-[28.698vw] left-0 rounded-[3.229vw] top-0 w-[39.792vw]" data-name="background" data-node-id="3049:19" />
             <div className="absolute flex flex-col font-arsenal h-[18.750vw] justify-center leading-[0] left-[2.813vw] not-italic text-[1.667vw] text-white top-[17.344vw] translate-y-[-50%] w-[28.438vw]" data-node-id="3049:20">
